@@ -27,3 +27,23 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
+
+@media all and (min-width: 900px) {
+	.two-column-flow  {
+		-webkit-column-count: 2;
+		-webkit-column-gap: 3%; /* Saf3, Chrome*/
+		-moz-column-count: 2;   
+		-moz-column-gap: 3%; /* FF3.5+ */
+		column-count: 2;        
+		column-gap: 3%; /* Opera 11+*/
+	}
+	
+	.three-column-flow  {
+		-webkit-column-count: 3;
+		-webkit-column-gap: 1%; /* Saf3, Chrome*/
+		-moz-column-count: 3;   
+		-moz-column-gap: 1%; /* FF3.5+ */
+		column-count: 3;        
+		column-gap: 1%; /* Opera 11+*/
+	}
+}
