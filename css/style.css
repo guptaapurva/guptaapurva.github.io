@@ -31,11 +31,11 @@ body {
 @media all and (min-width: 900px) {
 	.two-column-flow  {
 		-webkit-column-count: 2;
-		-webkit-column-gap: 3%; /* Saf3, Chrome*/
+		-webkit-column-gap: 5%; /* Saf3, Chrome*/
 		-moz-column-count: 2;   
-		-moz-column-gap: 3%; /* FF3.5+ */
+		-moz-column-gap: 5%; /* FF3.5+ */
 		column-count: 2;        
-		column-gap: 3%; /* Opera 11+*/
+		column-gap: 5%; /* Opera 11+*/
 	}
 	
 	.three-column-flow  {
@@ -47,3 +47,7 @@ body {
 		column-gap: 1%; /* Opera 11+*/
 	}
 }
+
+.modal-body {
+		text-align: left;
+		}
