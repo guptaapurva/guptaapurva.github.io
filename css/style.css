@@ -51,3 +51,7 @@ body {
 .modal-body {
 	text-align: justify;
 }
+
+.gap{
+	margin: 15px 0;
+}
