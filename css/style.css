@@ -70,12 +70,38 @@ body {
 	height: 100%;
 }
 
-​body, body.modal {
-    margin-right: 0 !important;
+.modal-backdrop{
+	display: none;
 }
 
-body.modal {
-    overflow-y: hidden;
+/*
+body.modal-open,
+.modal-open .navbar-fixed-top,
+.modal-open .navbar-fixed-bottom {
+  margin-right: 20px;
 }
 
-body.modal-open {margin-right: 0px}
+html {
+  overflow: hidden;
+  height: 100%;
+}
+body {
+  overflow: auto;
+  height: 100%;
+}
+
+.modal-open {
+ overflow: auto; 
+}
+
+.modal {
+ overflow-y: auto;
+}
+
+body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom {
+    margin-right: 0;
+}
+
+body{
+	padding-right: 15px;
+}*/
