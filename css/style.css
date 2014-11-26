@@ -105,3 +105,13 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 body{
 	padding-right: 15px;
 }*/
+
+.carousel-control.left {
+	background: none;
+	background-color: transparent;
+}
+
+.carousel-control.right {
+	background: none;
+	background-color: transparent;
+}
