@@ -186,7 +186,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand.active {
     color: #fec503;
 }
-
+/*
 .navbar-default .navbar-collapse {
     border-color: rgba(255,255,255,.02);
 }
@@ -261,6 +261,7 @@ fieldset[disabled] .btn-xl.active {
         font-size: 1.5em;
     }
 }
+*/
 
 header {
     text-align: center;
