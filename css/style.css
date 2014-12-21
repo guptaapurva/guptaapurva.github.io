@@ -116,6 +116,22 @@ body{
 	background-color: transparent;
 }
 
+.table-content tr th{
+	text-align:left; 
+	vertical-align: top; 
+	padding: 5px;
+}
+
+.table-content tr td{
+	text-align:left; 
+	vertical-align: top; 
+	padding: 5px;
+} 
+
+.table-content tr td ul{
+	padding: 20px;
+}
+
 /*
 .navbar-default {
     background-color: #222; 	/* Nav Bar Colour 
