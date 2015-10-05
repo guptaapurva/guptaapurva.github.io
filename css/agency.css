@@ -840,6 +840,60 @@ ul.social-buttons li a:active {
     transform: rotate(90deg);
 }
 
+
+.portfolio-modal .next-modal {
+    position: absolute;
+    top: 125px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .next-modal .lr {
+    z-index: 1051;
+    width: 3px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #222;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.portfolio-modal .next-modal .lr .rl {
+    z-index: 1052;
+    width: 3px;
+    height: 75px;
+    background-color: #222;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.portfolio-modal .previous-modal {
+    position: absolute;
+    top: 225px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .previous-modal .lr {
+    z-index: 1051;
+    width: 3px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #222;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
 ::-moz-selection {
     text-shadow: none;
     background: #fed136;
