@@ -169,7 +169,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
-
+/*
 .navbar-default {
     border-color: transparent;
     background-color: #222;
@@ -249,7 +249,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px;
+        border-radius: 0px;                           
     }
 
     .navbar-default.navbar-shrink {
@@ -261,6 +261,7 @@ fieldset[disabled] .btn-xl.active {
         font-size: 1.5em;
     }
 }
+*/
 
 header {
     text-align: center;
@@ -805,7 +806,7 @@ ul.social-buttons li a:active {
     margin-bottom: 0px;
 }
 
-.portfolio-modal .close-modal {
+.portfolio-navigation  .close-modal {
     position: fixed;
     top: 10px;
     right: 35px;
@@ -815,11 +816,11 @@ ul.social-buttons li a:active {
     cursor: pointer;
 }
 
-.portfolio-modal .close-modal:hover {
+.portfolio-navigation  .close-modal:hover {
     opacity: .5;
 }
 
-.portfolio-modal .next-modal {
+.portfolio-navigation  .next-modal {
     position: fixed;
     top: 70px;
     right: 35px;
@@ -829,11 +830,11 @@ ul.social-buttons li a:active {
     cursor: pointer;
 }
 
-.portfolio-modal .next-modal:hover {
+.portfolio-navigation  .next-modal:hover {
     opacity: .5;
 }
 
-.portfolio-modal .previous-modal {
+.portfolio-navigation .previous-modal {
     position: fixed;
     top: 130px;
     right: 35px;
@@ -843,11 +844,11 @@ ul.social-buttons li a:active {
     cursor: pointer;
 }
 
-.portfolio-modal .previous-modal:hover {
+.portfolio-navigation .previous-modal:hover {
     opacity: .5;
 }
 
-.portfolio-modal .modal_logo {
+.portfolio-navigation  .modal_logo {
 	z-index: 1052;
     position: fixed;
     top: 10px;
@@ -857,7 +858,7 @@ ul.social-buttons li a:active {
     cursor: pointer;
 }
 
-.portfolio-modal .modal_logo:hover {
+.portfolio-navigation  .modal_logo:hover {
     opacity: .5;
 }
 

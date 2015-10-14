@@ -74,6 +74,94 @@ body {
 	display: none;
 }
 
+.carousel-control.left {
+	background: none;
+	background-color: transparent;
+}
+
+.carousel-control.right {
+	background: none;
+	background-color: transparent;
+}
+
+.table-content tr th{
+	text-align:left; 
+	vertical-align: top; 
+	padding: 5px;
+}
+
+.table-content tr td{
+	text-align:left; 
+	vertical-align: top; 
+	padding: 5px;
+} 
+
+.table-content tr td ul{
+	padding-top: 20px;
+}
+
+#target .container {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+@media(min-width: 900px) {
+	.navbar-brand{
+		padding-top: 0px;
+	}
+}
+
+.project-navigation-navbar  a { 
+	float: left;
+}
+
+.project-navigation-navbar  div{
+	float: right;
+}
+
+.project-navigation-navbar a img {
+	width: 50px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.project-navigation-navbar a img:hover{
+	opacity: 0.5;
+}
+
+#target .container .row .col-md-12 {
+	text-align: left;
+}
+
+.main-navbar .container div .navbar-brand img{
+	height: 50px;
+	padding:10px;
+}
+
+.navbar-brand{
+	padding:0px
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #333;
+    background-color: #FED136;
+}
+
+.main-navbar .container div ul li a:hover{
+	color: #FED136;
+}
+
+.navbar-default {
+    background-color: #333;
+	border: none;
+	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #F7F7F7;
+	text-transform: uppercase;
+}
+
 /*
 body.modal-open,
 .modal-open .navbar-fixed-top,
@@ -105,32 +193,6 @@ body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom
 body{
 	padding-right: 15px;
 }*/
-
-.carousel-control.left {
-	background: none;
-	background-color: transparent;
-}
-
-.carousel-control.right {
-	background: none;
-	background-color: transparent;
-}
-
-.table-content tr th{
-	text-align:left; 
-	vertical-align: top; 
-	padding: 5px;
-}
-
-.table-content tr td{
-	text-align:left; 
-	vertical-align: top; 
-	padding: 5px;
-} 
-
-.table-content tr td ul{
-	padding-top: 20px;
-}
 
 /*
 .navbar-default {
