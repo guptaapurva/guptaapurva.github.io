@@ -169,7 +169,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
-
+/*
 .navbar-default {
     border-color: transparent;
     background-color: #222;
@@ -249,7 +249,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px;
+        border-radius: 0px;                           
     }
 
     .navbar-default.navbar-shrink {
@@ -261,6 +261,7 @@ fieldset[disabled] .btn-xl.active {
         font-size: 1.5em;
     }
 }
+*/
 
 header {
     text-align: center;
@@ -805,94 +806,61 @@ ul.social-buttons li a:active {
     margin-bottom: 0px;
 }
 
-.portfolio-modal .close-modal {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
+.portfolio-navigation  .close-modal {
+    position: fixed;
+    top: 10px;
+    right: 35px;
+    width: 50px;
+    height: 50px;
     background-color: transparent;
     cursor: pointer;
 }
 
-.portfolio-modal .close-modal:hover {
-    opacity: .3;
+.portfolio-navigation  .close-modal:hover {
+    opacity: .5;
 }
 
-.portfolio-modal .close-modal .lr {
-    z-index: 1051;
-    width: 3px;
-    height: 75px;
-    margin-left: 35px;
-    background-color: #222;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-.portfolio-modal .close-modal .lr .rl {
-    z-index: 1052;
-    width: 3px;
-    height: 75px;
-    background-color: #222;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-
-.portfolio-modal .next-modal {
-    position: absolute;
-    top: 125px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
+.portfolio-navigation  .next-modal {
+    position: fixed;
+    top: 70px;
+    right: 35px;
+    width: 50px;
+    height: 50px;
     background-color: transparent;
     cursor: pointer;
 }
 
-.portfolio-modal .next-modal .lr {
-    z-index: 1051;
-    width: 3px;
-    height: 75px;
-    margin-left: 35px;
-    background-color: #222;
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
+.portfolio-navigation  .next-modal:hover {
+    opacity: .5;
 }
 
-.portfolio-modal .next-modal .lr .rl {
-    z-index: 1052;
-    width: 3px;
-    height: 75px;
-    background-color: #222;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-.portfolio-modal .previous-modal {
-    position: absolute;
-    top: 225px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
+.portfolio-navigation .previous-modal {
+    position: fixed;
+    top: 130px;
+    right: 35px;
+    width: 50px;
+    height: 50px;
     background-color: transparent;
     cursor: pointer;
 }
 
-.portfolio-modal .previous-modal .lr {
-    z-index: 1051;
-    width: 3px;
-    height: 75px;
-    margin-left: 35px;
-    background-color: #222;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
+.portfolio-navigation .previous-modal:hover {
+    opacity: .5;
 }
 
+.portfolio-navigation  .modal_logo {
+	z-index: 1052;
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    width: 50px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-navigation  .modal_logo:hover {
+    opacity: .5;
+}
 
 ::-moz-selection {
     text-shadow: none;
