@@ -87,13 +87,24 @@
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
             
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                  <h2 class="section-heading">Portfolio</h2>
-                  <p>&nbsp;</p>
-                </div>
+			<div class="col-lg-12 text-center">
+				<h2 class="section-heading">Portfolio</h2>
+			</div>
+			
+			<div class="filter-container isotopeFilters text-center">
+				<ul class="list-inline filter">
+					<li class="active"><a href="#" data-filter="*">All </a><span>/</span></li>
+					<li><a href="#" data-filter=".et">Emerging Tech</a><span>/</span></li>
+					<li><a href="#" data-filter=".web">Web & App</a><span>/</span></li>
+					<li><a href="#" data-filter=".visuals">Visuals</a><span>/</span></li>
+					<li><a href="#" data-filter=".comp">Computational</a></li>
+				</ul>
+			</div>
+			
+            <div class="row isotopeContainer">
+				
 				<!--Ride-->
-                <div class="col-md-3 col-sm-6 portfolio-item style="display:none" >
+                <div class="col-md-3 col-sm-6 portfolio-item isotopeSelector et">
                     <a href="#portfolioModal" data-toggle="modal" class="grid_box portfolio-link" id="ride">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -109,7 +120,7 @@
                 </div>
 				
                 <!--Coke-->
-                <div class="col-md-3 col-sm-6 portfolio-item">
+                <div class="col-md-3 col-sm-6 portfolio-item isotopeSelector web visuals">
                     <a href="#portfolioModal" data-toggle="modal" class="grid_box portfolio-link" id="coke">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -125,7 +136,7 @@
                 </div>
 				
 				<!--NASA-->
-                <div class="col-md-3 col-sm-6 portfolio-item">
+                <div class="col-md-3 col-sm-6 portfolio-item isotopeSelector et">
                     <a href="#portfolioModal" data-toggle="modal" class="grid_box portfolio-link" id="nasa">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -141,8 +152,8 @@
                 </div>
 				
 				
-				   <!--Comp media-->
-                <div class="col-md-3 col-sm-6 portfolio-item">
+				<!--Comp media-->
+                <div class="col-md-3 col-sm-6 portfolio-item isotopeSelector comp">
                     <a href="#portfolioModal" data-toggle="modal" class="grid_box portfolio-link" id="cm">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -158,7 +169,7 @@
                 </div>
 				
 				<!--Inking-->
-                <div class="col-md-3 col-sm-6 portfolio-item">
+                <div class="col-md-3 col-sm-6 portfolio-item isotopeSelector et web">
                     <a href="#portfolioModal" data-toggle="modal" class="grid_box portfolio-link" id="inking">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -175,7 +186,7 @@
                 </div>
 				
 				<!--BTP-->
-                <div class="col-md-3 col-sm-6 portfolio-item">
+                <div class="col-md-3 col-sm-6 portfolio-item isotopeSelector et">
                     <a href="#portfolioModal" data-toggle="modal" class="grid_box portfolio-link" id="btp">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -194,7 +205,7 @@
 				<!--<div class="clearfix hidden-md hidden-lg"></div>-->
 				
 				<!--JDA-->
-                <div class="col-md-3 col-sm-6 portfolio-item">
+                <div class="col-md-3 col-sm-6 portfolio-item isotopeSelector web">
                     <a href="#portfolioModal" data-toggle="modal" class="grid_box portfolio-link" id="jda">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -208,8 +219,9 @@
                         <p class="text-muted">Dashboard Design, Analysis, Prototyping</p>
                     </div> -->
                 </div>
+				
 				<!--Mubiks-->
-				<div class="col-md-3 col-sm-6 portfolio-item">
+				<div class="col-md-3 col-sm-6 portfolio-item isotopeSelector et">
                     <a href="#portfolioModal" data-toggle="modal" class="grid_box portfolio-link" id="mubiks">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -224,8 +236,9 @@
                     </div> -->
                 </div>
 				<!-- <div class="clearfix"></div> -->
+				
 				<!--Isphere-->
-                <div class="col-md-3 col-sm-6 portfolio-item">
+                <div class="col-md-3 col-sm-6 portfolio-item isotopeSelector web">
                     <a href="#portfolioModal" data-toggle="modal" class="grid_box portfolio-link" id="isphere">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -239,8 +252,9 @@
                         <p class="text-muted">3D Interface, Usability Evaluation, Prototyping</p>
                     </div> -->
                 </div>
+				
 				<!--Cabage-->
-                <div class="col-md-3 col-sm-6 portfolio-item">
+                <div class="col-md-3 col-sm-6 portfolio-item isotopeSelector web visuals">
                     <a href="#portfolioModal" data-toggle="modal" class="grid_box portfolio-link" id="cabage">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -256,7 +270,7 @@
                 </div>
 				
                  <!--Pathways-->
-                <div class="col-md-3 col-sm-6 portfolio-item">
+                <div class="col-md-3 col-sm-6 portfolio-item isotopeSelector et visuals">
                     <a href="#portfolioModal" data-toggle="modal" class="grid_box portfolio-link" id="synlab">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -267,8 +281,6 @@
                     </a>
                     
                 </div>
-                
-                
                 
                 <!--ebay--
                 <div class="col-md-3 col-sm-6 portfolio-item">
@@ -285,8 +297,7 @@
                         <p class="text-muted">Brand Study, Info-Graphics, Concept, Prototyping, Motion Graphics </p>
                     </div>
                 </div>
-                
-             -->
+				-->
                 
                 <div class="clearfix hidden-md hidden-lg"></div>
                 
@@ -574,6 +585,11 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+	
+	<!-- Filters -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/isotope.min.js"></script>
 	
 	<script>
 		$('.grid_box').on('click', function(){
