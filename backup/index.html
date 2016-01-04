@@ -44,22 +44,19 @@
 </head>
 
 <body id="page-top" class="index">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top navbar-shrink ">
+ 
+    <nav class="navbar navbar-default navbar-fixed-top main-navbar" style="padding: 0px">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle btn btn-xl " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle btn btn-lg " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Apurva Gupta</a>
+                <a class="navbar-brand page-scroll" href="#page-top"> <img src="img/logo_name.png" alt="Apurva Gupta"> </a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
@@ -80,64 +77,11 @@
                     
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
     </nav>
 
-	<!-- Full Page Image Background Carousel Header -->
-    <header id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-        </ol>
-
-        <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('img/cover/b.png');"></div>
-                <div class="carousel-caption">
-                   
-                </div>
-            </div>
-            <div class="item">
-                <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('img/cover/c.png');"></div>
-                <div class="carousel-caption">
-                    
-                </div>
-                </div>
-            
-            <div class="item">
-             <div class="fill" style="background-image:url('img/cover/d.png');"></div>
-                <div class="carousel-caption">
-                    
-                </div>
-            </div>
-            
-            <div class="item">
-             <div class="fill" style="background-image:url('img/cover/a.png');"></div>
-                <div class="carousel-caption">
-                    
-                </div>
-            </div>
-            
-            
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-
-    </header>
+	<img src="img/cover/e.png" class="img-responsive" width="100%" style="margin-top:50px">
+	
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
@@ -311,9 +255,9 @@
                     </div> -->
                 </div>
 				
-               <!--  <!--Pathways--
+                 <!--Pathways-->
                 <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal" data-toggle="modal" class="grid_box portfolio-link" id="coke">
+                    <a href="#portfolioModal" data-toggle="modal" class="grid_box portfolio-link" id="synlab">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -321,10 +265,7 @@
                         </div>
                         <img src="img/heading/synlab.png" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
-                        <h4>&nbsp;</h4>
-                        <p class="text-muted">Brand Study, Info-Graphics, Concept, Prototyping, Motion Graphics </p>
-                    </div>
+                    
                 </div>
                 
                 
@@ -345,16 +286,9 @@
                     </div>
                 </div>
                 
-             
-                
-              
-                 
-                
-                
+             -->
                 
                 <div class="clearfix hidden-md hidden-lg"></div>
-                       
-                
                 
             </div>
         </div>
@@ -574,12 +508,45 @@
     <!-- Portfolio Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal" style="z-index: 999">
-                <div class="lr" style="background-color:rgba(255, 243, 0, 1)">
-                    <div class="rl" style="background-color:rgba(255, 243, 0, 1)">
-                    </div>
-                </div>
-            </div>
+		
+			 <nav class="navbar navbar-fixed-top visible-xs-inline-block visible-sm-inline-block" style="background-color: black; margin-right: 20px">
+			   <div class="navbar-inner">
+				 <div class="container project-navigation-navbar page-scroll">
+					<a class="page-scroll navbar-left" href="#page-top" data-dismiss="modal"> <img src="img/logo.png" alt="Apurva Gupta"> </a>
+					
+					<div class="navbar-right">
+					<a class="previous-modal grid_box" data-toggle="modal" id="none"> <img src="img/previous.png" width = "50px" alt="Apurva Gupta"> </a>
+					
+					<a class="next-modal grid_box" data-toggle="modal" id="none"> <img src="img/next.png" width = "50px" alt="Apurva Gupta"> </a>
+					
+					<a class="close-modal" data-dismiss="modal"> <img src="img/close.png" width = "50px" alt="Apurva Gupta"> </a>
+					</div>
+				 </div>
+			   </div>
+			 </nav>
+	
+			<div class="portfolio-navigation">
+				<div class="modal_logo hidden-xs hidden-sm">
+					<a href="index.html"><img src="img/logo.png" width = "100%" alt="Apurva Gupta"></a>
+				</div>
+				
+				<div class="close-modal hidden-xs hidden-sm" data-dismiss="modal" style="z-index: 999">
+					<img src="img/close.png" width = "50px" alt="Apurva Gupta">
+				</div>
+				
+				<div class="next-modal grid_box hidden-xs hidden-sm" data-toggle="modal" style="z-index: 999" id="none">
+					<img src="img/next.png" width = "50px" alt="Apurva Gupta">
+				</div>
+				
+				<div class="previous-modal grid_box hidden-xs hidden-sm" data-toggle="modal" style="z-index: 999" id="none">
+					<img src="img/previous.png" width = "50px" alt="Apurva Gupta">
+				</div>
+			</div>
+			
+			<div class="visible-xs-inline-block visible-sm-inline-block" style="background-color: black; width: 100%; height: 50px">
+				.
+			</div>
+			
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="modal-body row" id="modal-body1" style="padding: 0px">
@@ -610,6 +577,9 @@
 	
 	<script>
 		$('.grid_box').on('click', function(){
+			$('nav').attr('style','margin-right:15px');
+			
+			var blah = $(this).attr('id');
 			var file_name=$(this).attr('id')+'.html';
 
 			$('#modal-body1').load(file_name, function( response, status, xhr ) {
@@ -618,7 +588,22 @@
 					$('#modal-body1').html(msg);
 				}
 			}); 
+			
+			if ( blah == "ride" ) { $('.next-modal').attr('id', 'coke'); $('.previous-modal').attr('id', 'cabage'); }
+			if ( blah == "coke" ) { $('.next-modal').attr('id', 'nasa'); $('.previous-modal').attr('id', 'ride'); }
+			if ( blah == "nasa" ) { $('.next-modal').attr('id', 'cm'); $('.previous-modal').attr('id', 'coke'); }
+			if ( blah == "cm" ) { $('.next-modal').attr('id', 'inking'); $('.previous-modal').attr('id', 'nasa'); }
+			if ( blah == "inking" ) { $('.next-modal').attr('id', 'btp'); $('.previous-modal').attr('id', 'cm'); }
+			if ( blah == "btp" ) { $('.next-modal').attr('id', 'jda'); $('.previous-modal').attr('id', 'inking'); }
+			if ( blah == "jda" ) { $('.next-modal').attr('id', 'mubiks'); $('.previous-modal').attr('id', 'btp'); }
+			if ( blah == "mubiks" ) { $('.next-modal').attr('id', 'isphere'); $('.previous-modal').attr('id', 'jda'); }
+			if ( blah == "isphere" ) { $('.next-modal').attr('id', 'cabage'); $('.previous-modal').attr('id', 'mubiks'); }
+			if ( blah == "cabage" ) { $('.next-modal').attr('id', 'ride'); $('.previous-modal').attr('id', 'isphere'); }
 		});
+		
+		$('#portfolioModal').on('hidden.bs.modal', function (e) {
+		  $('nav').attr('style','margin-right:0px');
+		})
 		
 		$('.carousel').carousel({
 		  interval: 5000
