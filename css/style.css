@@ -16,6 +16,26 @@ body {
     height: 100%;
 }
 
+/* Filters */
+
+ul.filter > li > a {
+    color:#000000;
+    font-size:16px;
+    line-height:40px;
+	padding: 5px;
+}
+
+ul.filter > li > a:hover,ul.filter > li > a:focus {
+    text-decoration:none;
+    color: rgb(254, 209, 54);
+    outline: none;
+}
+
+ul.filter > li.active a {
+	background-color: rgb(254, 209, 54);
+	color: #F7F7F7;
+}
+
 /* Background images are set within the HTML using inline CSS, not here */
 
 .fill {
