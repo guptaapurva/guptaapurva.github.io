@@ -26,25 +26,100 @@
 				<p>Choosing between multiple cities to live in could be a daunting task specially for internationals who are new to the foreign land or young adults looking to relocate when starting the next chapter of their lives.They may be considering more than one option, however, finding and comparing information about the cities and picking one is both resource and time intensive. The viualisatio is aimed to help young people especially new college graduates who are considering relocation or people who just want to know more, explore, compare and rank different cities. </p>
 			</div>
             
-            
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/BtOWvIOz_Uc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 		  
 			
 		<div class = "col-xs-12 col-md-6">
 			  <h4>Dataset</h4>
-				<p>Data was collected from multiple sources like US Census Bureau, Bureau of Labor Statistics, etc. This multivariate dataset with 17 variables was cleaned and normalised for 35 US cities. </p>
+				<p>Data was collected from multiple sources like US Census Bureau, Bureau of Labor Statistics, eventbrite.com, etc. This multivariate dataset with 17 variables was cleaned and normalised for 35 US cities. The variables were all quantitative.</p>
 </div>	
 
 <div class = "col-xs-12 col-md-6">
 			  <h4>Design Alternatives</h4>
-				<p>After getting a sense </p>
+				<p>&nbsp;</p>
 </div>	
 
 <div class = "col-xs-12 col-md-6">
 			  <h4>Visualisation Description</h4>
-				<p>Data was collected from multiple sources for 35 cities of United states. This multivariate data was normalised and </p>
+				<p dir="ltr">The interface of the visualisation offers various elements to eplore the underlying content.</p>
+				  
+				    <p dir="ltr">Controllers: These are checkboxes to select between multiple metrics and Cities. </p>
+			      </li>
+				  <ol>
+				    <li dir="ltr">
+				      <p dir="ltr">Metric Selector: It acts both as a color legend and selector. Clicking the metric selects the metric. For the legend, pastel colors are used for 17 metrics since it is a good choice for large number of colors. </p>
+			        </li>
+				    <li dir="ltr">
+				      <p dir="ltr">City Selector</p>
+			        </li>
+				    <ol>
+				      <li dir="ltr">
+				        <p dir="ltr">List: The list have all the cities arranged in 2 columns in alphabetic order.</p>
+			          </li>
+				      <li dir="ltr">
+				        <p dir="ltr">Map: The map shows the spatial location of the cities on the US map.</p>
+			          </li>
+			        </ol>
+			      </ol>
+  </ol>
+				<p dir="ltr">The list and the map are linked and making a selection on one highlights the corresponding city on the other.</p>
+				<ol start="3">
+				  <li dir="ltr">
+				    <p dir="ltr">Multiple views</p>
+			      </li>
+				  <ol>
+				    <li dir="ltr">
+				      <p dir="ltr">Custom Circular Chord Diagram</p>
+			        </li>
+			      </ol>
+  </ol>
+				<p dir="ltr">A custom circular Chord diagram is used to show how each cities fares across different metrics. The selected metrics are placed on left side and cities on right side. The data has been normalised [0-1] and drawn on the diagram. The width of the edges represent the normalised value and color represents the metric itself. The diagram supports the following interactions:</p>
+				<ol>
+				  <ol>
+				    <ol>
+				      <li dir="ltr">
+				        <p dir="ltr">Hover: Hovering each path shows the actual values of the metric for the city.</p>
+			          Add and remove: Users can add or remove metrics and cities to the diagram by using the controllers.			          </li>
+				    </ol>
+				  </ol>
+  </ol>
+				<ol start="2">
+				<ol start="2">
+			      <li dir="ltr">
+			        <p dir="ltr">Stacked Bar chart<br />
+				        The stacked bar chart is used to rank all the cities according to the selected metrics. The cities are placed along the x-axis and different metrics are stacked upon each other. The height of each tile is based on the normalized value for the metric. The height of the bar is calculated by adding up the tiles.This view supports the following interactions:</p>
+			        </li>
+				    <ol>
+				      <li dir="ltr">
+				        <p dir="ltr">Hover: Hovering each stack shows the actual values of the metric for the city</p></li>
+				    </ol>
+				  </ol>
+  </ol>
+				<ol start="2">
+				  <ol start="2">
+				    <ol start="2">
+				      <li dir="ltr">
+				        <p dir="ltr">Select: Selecting any city highlights all the cities based on its similarity with the selected one. Opacity values are used to represent similarity. Higher opacity corresponds to higher similarity. Similarity is calculated using the standard deviation of all the other cities compared to the selected city.</p>
+				      </li>
+				    </ol>
+				  </ol>
+  </ol>
+				<ol start="3">
+				  <ol start="3">
+				    <ol start="3">
+				      <li dir="ltr">
+				        <p dir="ltr">Sort: Upon clicking the &ldquo;Sort button&rdquo;, cities are sorted and arranged on x-axis based on the sum of the normalised values of the selected metrics. Thus, this view also gives a sense on distribution of all the cities for the selected metrics.</p>
+			          </li>
+			        </ol>
+			      </ol>
+  </ol>
+				<p>&nbsp;</p>
 </div>	
 
 <div class = "col-xs-12 col-md-6">
 			  <h4>Learning outcomes </h4>
-				<p>Data was collected from multiple sources for 35 cities of United states. This multivariate data was normalised and </p>
+				<p>We came across many problems while implementing the interface.Choice of color was crucial since we had a multivariate independent dataset. The data was not similar i.e a high value of average income meant a better city but a high congestion level did not. Chord diagram didnt prove well to compare values bt only gave a spatial sense of how the cities compared. This was taken care of by the stacked bar chart but normalisation made stacks very small to to visually compare. Overall, the visualization lacked in comparing all the cities across all the metrics in an efficient way.</p>
+				<p>Suggested changes to these problems:<br />
+			    Replace Chord diagram with other multivariate visualization technique which allows better exploration and is well accepted by the target audience. Also, Redesign the stacked bar chart for better understanding of the represented data.</p>
+				<p>&nbsp;</p>
 </div>		
