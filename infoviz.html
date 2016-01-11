@@ -23,7 +23,7 @@
 			
 			<div class = "col-xs-12 col-md-6">
 			  <h4>Problem Description</h4>
-				<p>Choosing between multiple cities to live in could be a daunting task specially for internationals who are new to the foreign land or young adults looking to relocate when starting the next chapter of their lives.They may be considering more than one option, however, finding and comparing information about the cities and picking one is both resource and time intensive. The viualisatio is aimed to help young people especially new college graduates who are considering relocation or people who just want to know more, explore, compare and rank different cities. </p>
+				<p>Choosing between multiple cities to live in could be a daunting task specially for internationals who are new to the foreign land or young adults looking to relocate when starting the next chapter of their lives.They may be considering more than one option, however, finding and comparing information about the cities and picking one is both resource and time intensive. The viualisation is aimed to help young people especially new college graduates who are considering relocation or people who just want to know more, explore, compare and rank different cities. </p>
 			</div>
             
             <iframe width="1280" height="720" src="https://www.youtube.com/embed/BtOWvIOz_Uc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -31,14 +31,78 @@
 			
 		<div class = "col-xs-12 col-md-6">
 			  <h4>Dataset</h4>
-				<p>Data was collected from multiple sources like US Census Bureau, Bureau of Labor Statistics, eventbrite.com, etc. This multivariate dataset with 17 variables was cleaned and normalised for 35 US cities. The variables were all quantitative.</p>
+				<p>Data was collected from multiple sources like US Census Bureau, Bureau of Labour Statistics, eventbrite.com, etc. This multivariate dataset with 17 variables was cleaned and normalised for 35 US cities. The variables were all quantitative and included metrics around Transportation, Quality of Living, Cost of Living, Entertainment and employment statistics.</p>
 </div>	
 
 <div class = "col-xs-12 col-md-6">
 			  <h4>Design Alternatives</h4>
-				<p>&nbsp;</p>
+			  <p>We started with who are the users of the system and what would be some questions they would seek answers to from the visualisation. We abstracted these questions into atomic tasks. We looked at various visualisation techniques for multivariate data sets to seek inspiration. We held multiple brainstorming sessions and came up with multiple designs lke stand-alone exploratory systems (Dus and magnet), multiview representation of data and some insipired from the theme of daily and casual visualisations.</p>
+			  </p>
+			  <div class="clearfix gap"></div>
+			
+			<div class = "col-xs-12 col-md-12"> 
+				<div id="carousel-example-generic2" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="img/projects/infoviz/i3.png" alt="Dust and magnet">
+							<div class="carousel-caption">
+								Dust and Magnet
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="img/projects/infoviz/i1.png" alt="multiview">
+							<div class="carousel-caption">
+								Multiview
+							</div>
+						</div>   
+						
+						<div class="item">
+							<img src="img/projects/infoviz/i2.png" alt="multiview">
+							<div class="carousel-caption">
+								Multiview
+							</div>
+						</div>
+						
+						<div class="item">
+							<img src="img/projects/infoviz/i4.png" alt="casual">
+							<div class="carousel-caption">
+								Casual Viz
+							</div>
+							
+						<div class="item">
+							<img src="img/projects/infoviz/i5.png" alt="density">
+							<div class="carousel-caption">
+								Density
+							</div>
+						</div>
+
+					</div>
+
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic2" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					
+					<a class="right carousel-control" href="#carousel-example-generic2" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+				<p></p>
+			</div>
+			  
+			  
+			  
+			  
+			  
 </div>	
 
+<p> Some of these were hard to implement or did not resonate with the target users ie. they found some designs very technical and not friendly. Others did not help fulfilling representative user tasks. based on the feedback received, we iterated our design and settled for a co-ordinated circular chord diagram. </p>
+</div>
 <div class = "col-xs-12 col-md-6">
 			  <h4>Visualisation Description</h4>
 				<p dir="ltr">The interface of the visualisation offers various elements to eplore the underlying content.</p>
