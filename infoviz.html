@@ -109,15 +109,21 @@
 				<p dir="ltr">The interface of the visualisation offers various elements to eplore the underlying content. The three major components are Controllers, Chord Diagram and the stacked bar chart.</p>
 </div>
                 
-                <div class = "col-xs-12 col-md-4">
+<div class = "col-xs-12 col-md-4">
 				  
-				    <p dir="ltr"><strong>Controllers</strong></p>
-  <p dir="ltr">These are checkboxes to select between multiple metrics and Cities. The metric selector  acts both as a color legend and selector.  For the legend, pastel colors are used for 17 metrics since it is a good choice for large number of metrics. Cities can be selected from the alphabetically ordered list or from the US map. The list and the map are linked and making a selection on one highlights the corresponding city on the other.</p> </div>
+  <p dir="ltr"><strong>Controllers</strong></p>
+  <p dir="ltr">These are checkboxes to select between multiple metrics and Cities. </p>
+  <p dir="ltr"><em>Metric selector</em>: It acts both as a color legend and selector.  For the legend, pastel colors are used for 17 metrics since it is a good choice for large number of metrics. </p>
+  <p dir="ltr"><em>City Selector</em>: Cities can be selected from the alphabetically ordered list or from the US map which shows the spatial location of the cities. The list and the map are linked and making a selection on one highlights and selects the corresponding city on the other.</p> 
+  </div>
   
   
 				 <div class = "col-xs-12 col-md-4">
 				   <p dir="ltr"><strong>Circular Chord Diagram</strong></p>
-				   <p dir="ltr">A custom circular Chord diagram is used to show how each cities compare across different metrics. The selected metrics are placed on left side and cities on right side. The data has been normalised [0-1] and drawn on the diagram. The width of the edges represent the normalised value and color represents the metric itself. The wider the arc for the city, more better the ranking. The diagram supports hovering i.e Hovering each path shows the actual values of the metric for the city and Add and remove where Users can add or remove metrics and cities to the diagram by using the controllers. </p> </div>
+				   <p dir="ltr">A custom circular Chord diagram is used to show how each cities compare across different metrics. The selected metrics are placed on left side and cities on right side. The width of the edges/chords represent the normalised value of the metric and color represents the metric itself. The city is represented by the arc and is composed of the selected metrics. The wider the arc for the city, more better it is among the selected cities. The diagram supports the following interaction:</p>
+				   <p dir="ltr"><em>Hovering: </em> Hovering each path shows the actual values of the metric for the city. Hovering on the city arc highlights all the chords of the selected metrics for the city and hovering on the metric arc highlights the chords for various cities for that metric.</p>
+				   <p dir="ltr"><em>Add and remove</em>: Users can add or remove metrics and cities to the diagram by using the controllers. </p> 
+</div>
                    	
                     <div class = "col-xs-12 col-md-4">
 			        <p dir="ltr"><strong>Stacked Bar char</strong>t</p>
