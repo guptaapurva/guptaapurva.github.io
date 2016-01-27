@@ -149,9 +149,9 @@ ul.filter > li.active a {
 	opacity: 0.5;
 }
 
-#target .container .row .col-md-12 {
+/* #target .container .row .col-md-12 {
 	text-align: left;
-}
+} */
 
 .main-navbar .container div .navbar-brand img{
 	height: 50px;
