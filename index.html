@@ -533,11 +533,11 @@
 					<a class="page-scroll navbar-left" href="#page-top" data-dismiss="modal"> <img src="img/logo.png" alt="Apurva Gupta"> </a>
 					
 					<div class="navbar-right">
-					<a class="previous-modal grid_box" data-toggle="modal" id="none"> <img src="img/previous.png" width = "50px" alt="Apurva Gupta"> </a>
+					<a class="previous-modal grid_box" data-toggle="modal" id="none"> <img src="img/previous.png" width = "50px"> </a>
 					
-					<a class="next-modal grid_box" data-toggle="modal" id="none"> <img src="img/next.png" width = "50px" alt="Apurva Gupta"> </a>
+					<a class="next-modal grid_box" data-toggle="modal" id="none"> <img src="img/next.png" width = "50px"> </a>
 					
-					<a class="close-modal" data-dismiss="modal"> <img src="img/close.png" width = "50px" alt="Apurva Gupta"> </a>
+					<a class="close-modal" data-dismiss="modal"> <img src="img/close.png" width = "50px"> </a>
 					</div>
 				 </div>
 			   </div>
@@ -598,7 +598,22 @@
 	<script src="js/main.js"></script>
 	<script src="js/isotope.min.js"></script>
 	
-	<script>
+	<script type="text/javascript">
+		$(function(){
+
+			$('#portfolioModal').on('hidden.bs.modal', function (e) {
+			  $('nav').attr('style','margin-right:0px');
+			})
+			
+			$('#portfolioModal').on('shown.bs.modal', function (e) {
+			  window.history.pushState('','', '/projects'+blah);
+			})
+			
+			$('.carousel').carousel({
+			  interval: 5000
+			})	
+		});
+		
 		$('.grid_box').on('click', function(){
 			$('nav').attr('style','margin-right:15px');
 			
@@ -612,8 +627,15 @@
 				}
 			}); 
 			
-			if ( blah == "ride" ) { $('.next-modal').attr('id', 'coke'); $('.previous-modal').attr('id', 'cm'); }
-			if ( blah == "coke" ) { $('.next-modal').attr('id', 'synlab'); $('.previous-modal').attr('id', 'ride'); }
+			if ( blah == "ride" ) { 
+				$('.next-modal').attr('id', 'coke'); $('.previous-modal').attr('id', 'cm'); 
+				window.history.pushState('','', '/projects/ride');
+			}
+			if ( blah == "coke" ) {
+				$('.next-modal').attr('id', 'synlab'); $('.previous-modal').attr('id', 'ride'); 
+				window.history.pushState('','', '/projects/coke');
+				console.log("hi");
+			}
 			if ( blah == "synlab" ) { $('.next-modal').attr('id', 'ebay'); $('.previous-modal').attr('id', 'coke'); }
 			if ( blah == "ebay" ) { $('.next-modal').attr('id', 'infoviz'); $('.previous-modal').attr('id', 'synlab'); }
 			if ( blah == "infoviz" ) { $('.next-modal').attr('id', 'inking'); $('.previous-modal').attr('id', 'ebay'); }
@@ -625,14 +647,9 @@
 			if ( blah == "cabage" ) { $('.next-modal').attr('id', 'cm'); $('.previous-modal').attr('id', 'isphere'); }
 			if ( blah == "cm" ) { $('.next-modal').attr('id', 'ride'); $('.previous-modal').attr('id', 'cabage'); }
 		});
+
 		
-		$('#portfolioModal').on('hidden.bs.modal', function (e) {
-		  $('nav').attr('style','margin-right:0px');
-		})
-		
-		$('.carousel').carousel({
-		  interval: 5000
-		})
+
 		
 	</script>
 
