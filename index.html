@@ -605,14 +605,14 @@
 			  $('nav').attr('style','margin-right:0px');
 			})
 			
-			$('#portfolioModal').on('shown.bs.modal', function (e) {
-			  window.history.pushState('','', '/projects'+blah);
-			})
-			
 			$('.carousel').carousel({
 			  interval: 5000
 			})	
 		});
+		
+		$('.close-modal').on('click', function(){
+			window.history.pushState('','');
+		})
 		
 		$('.grid_box').on('click', function(){
 			$('nav').attr('style','margin-right:15px');
@@ -627,15 +627,10 @@
 				}
 			}); 
 			
-			if ( blah == "ride" ) { 
-				$('.next-modal').attr('id', 'coke'); $('.previous-modal').attr('id', 'cm'); 
-				window.history.pushState('','', '/projects/ride');
-			}
-			if ( blah == "coke" ) {
-				$('.next-modal').attr('id', 'synlab'); $('.previous-modal').attr('id', 'ride'); 
-				window.history.pushState('','', '/projects/coke');
-				console.log("hi");
-			}
+			window.history.pushState('','', blah);
+			
+			if ( blah == "ride" ) { $('.next-modal').attr('id', 'coke'); $('.previous-modal').attr('id', 'cm'); }
+			if ( blah == "coke" ) { $('.next-modal').attr('id', 'synlab'); $('.previous-modal').attr('id', 'ride'); }
 			if ( blah == "synlab" ) { $('.next-modal').attr('id', 'ebay'); $('.previous-modal').attr('id', 'coke'); }
 			if ( blah == "ebay" ) { $('.next-modal').attr('id', 'infoviz'); $('.previous-modal').attr('id', 'synlab'); }
 			if ( blah == "infoviz" ) { $('.next-modal').attr('id', 'inking'); $('.previous-modal').attr('id', 'ebay'); }
@@ -647,9 +642,6 @@
 			if ( blah == "cabage" ) { $('.next-modal').attr('id', 'cm'); $('.previous-modal').attr('id', 'isphere'); }
 			if ( blah == "cm" ) { $('.next-modal').attr('id', 'ride'); $('.previous-modal').attr('id', 'cabage'); }
 		});
-
-		
-
 		
 	</script>
 
