@@ -602,11 +602,7 @@
 		
 		$('#portfolioModal').on('hidden.bs.modal', function (e) {
 		  $('nav').attr('style','margin-right:0px');
-		  window.history.pushState('','',"");
-		})
-		
-		$('.close-modal').on('click', function(){
-			window.history.pushState('','');
+		  window.history.pushState('','',"/");
 		})
 		
 		$(window).on("popstate", function(e) {
@@ -665,6 +661,10 @@
 			if ( blah == "cabage" ) { $('.next-modal').attr('id', 'cm'); $('.previous-modal').attr('id', 'isphere'); }
 			if ( blah == "cm" ) { $('.next-modal').attr('id', 'ride'); $('.previous-modal').attr('id', 'cabage'); }
 		}
+		
+		//$('.close-modal').on('click', function(){
+		//	window.history.pushState('','');
+		//})
 		
 		//$('.carousel').carousel({
 		//  interval: 5000
