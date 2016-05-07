@@ -614,6 +614,16 @@
 			window.history.pushState('','');
 		})
 		
+		window.onload = function() {
+		  if (!supports_history_api()) { return; }
+		  setupHistoryClicks();
+		  window.setTimeout(function() {
+			window.addEventListener("popstate", function(e) {
+			  console.log(5 + 6);
+			}, false);
+		  }, 1);
+		}
+		
 		$('.grid_box').on('click', function(){
 			$('nav').attr('style','margin-right:15px');
 			
