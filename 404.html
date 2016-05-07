@@ -602,6 +602,7 @@
 		
 		$('#portfolioModal').on('hidden.bs.modal', function (e) {
 		  $('nav').attr('style','margin-right:0px');
+		  window.history.pushState('','',"");
 		})
 		
 		$('.close-modal').on('click', function(){
