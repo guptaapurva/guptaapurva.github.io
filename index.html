@@ -605,24 +605,18 @@
 			  $('nav').attr('style','margin-right:0px');
 			})
 			
-			$('.carousel').carousel({
-			  interval: 5000
-			})	
+			//$('.carousel').carousel({
+			//  interval: 5000
+			//})	
 		});
 		
 		$('.close-modal').on('click', function(){
 			window.history.pushState('','');
 		})
 		
-		window.onload = function() {
-		  if (!supports_history_api()) { return; }
-		  setupHistoryClicks();
-		  window.setTimeout(function() {
-			window.addEventListener("popstate", function(e) {
-			  console.log(5 + 6);
-			}, false);
-		  }, 1);
-		}
+		 $(window).on("popstate", function(e) {
+			console.log(5 + 6);
+		  });
 		
 		$('.grid_box').on('click', function(){
 			$('nav').attr('style','margin-right:15px');
