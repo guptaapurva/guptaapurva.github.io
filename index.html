@@ -615,8 +615,9 @@
 		})
 		
 		 $(window).on("popstate", function(e) {
-			var pathArray = window.location.pathname.split( '/' );
+			var pathArray = window.location.pathname.split( '-' );
 			console.log(window.location.pathname);
+			console.log(pathArray[1]);
 		  });
 		
 		$('.grid_box').on('click', function(){
