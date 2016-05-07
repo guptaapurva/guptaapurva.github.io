@@ -616,7 +616,7 @@
 		
 		 $(window).on("popstate", function(e) {
 			if ( window.location.pathname == '/') {
-				$('#portfolioModal').hide();
+				$("#portfolioModal").modal("hide");
 				console.log("Back to home");
 			} else {
 				var pathArray = window.location.pathname.split( '-' );
