@@ -603,16 +603,12 @@
 		$('#portfolioModal').on('hidden.bs.modal', function (e) {
 		  $('nav').attr('style','margin-right:0px');
 		})
-			
-			//$('.carousel').carousel({
-			//  interval: 5000
-			//})
 		
 		$('.close-modal').on('click', function(){
 			window.history.pushState('','');
 		})
 		
-		 $(window).on("popstate", function(e) {
+		$(window).on("popstate", function(e) {
 			if ( window.location.pathname == '/') {
 				$("#portfolioModal").modal("hide");
 				console.log("Back to home");
@@ -621,13 +617,19 @@
 				console.log(window.location.pathname);
 				console.log(pathArray[1]);
 			}
-		  });
+		});
 		
 		$('.grid_box').on('click', function(){
+			var blah = $(this).attr('id');
+			window.history.pushState('','',"/project-"+blah);
+			
+			modalFunction(blah);
+		});
+		
+		function modalFunction (blah) {
 			$('nav').attr('style','margin-right:15px');
 			
-			var blah = $(this).attr('id');
-			var file_name=$(this).attr('id')+'.html';
+			var file_name=blah+'.html';
 
 			$('#modal-body1').load(file_name, function( response, status, xhr ) {
 				if ( status == "error" ) {
@@ -635,8 +637,6 @@
 					$('#modal-body1').html(msg);
 				}
 			}); 
-			
-			window.history.pushState('','',"/project-"+blah);
 			
 			if ( blah == "ride" ) { $('.next-modal').attr('id', 'coke'); $('.previous-modal').attr('id', 'cm'); }
 			if ( blah == "coke" ) { $('.next-modal').attr('id', 'synlab'); $('.previous-modal').attr('id', 'ride'); }
@@ -650,7 +650,11 @@
 			if ( blah == "isphere" ) { $('.next-modal').attr('id', 'cabage'); $('.previous-modal').attr('id', 'mubiks'); }
 			if ( blah == "cabage" ) { $('.next-modal').attr('id', 'cm'); $('.previous-modal').attr('id', 'isphere'); }
 			if ( blah == "cm" ) { $('.next-modal').attr('id', 'ride'); $('.previous-modal').attr('id', 'cabage'); }
-		});
+		}
+		
+		//$('.carousel').carousel({
+		//  interval: 5000
+		//})
 		
 	</script>
 
