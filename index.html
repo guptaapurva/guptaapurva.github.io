@@ -621,6 +621,17 @@
 			}
 		});
 		
+		window.onload = function(e){
+			blah2 = window.location.pathname;
+			if ( blah2.includes("project-") ) {
+				var pathArray = window.location.pathname.split( '-' );
+				console.log(window.location.pathname);
+				console.log(pathArray[1]);
+				modalFunction(pathArray[1]);
+				$("#portfolioModal").modal("show");
+			} 
+		}
+		
 		$('.grid_box').on('click', function(){
 			var blah = $(this).attr('id');
 			window.history.pushState('','',"/project-"+blah);
