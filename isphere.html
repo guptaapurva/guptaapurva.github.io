@@ -1,0 +1,320 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Apurva Gupta | Ride-n-Guide</title>
+	<link rel="icon" type="image/png" href="favicon.png" />
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/blueimp-gallery.min.css">
+	
+	<!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+  <body style="padding-top: 50px;">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	  <div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="index.html">Apurva Gupta</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<form class="navbar-form navbar-right">
+				<a href="mogeste.html" class="btn btn-default"><b><</b> Motion Gestures</a>
+				<a href="coke.html" class="btn btn-default">Coca-Cola <b>></b></a>
+			</form>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="index.html#portfolio">Portfolio</a></li>
+				<li><a href="index.html#resume">Resume</a></li>
+				<li><a href="index.html#about">About</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	
+	<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+	<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+		<!-- The container for the modal slides -->
+		<div class="slides"></div>
+		<!-- Controls for the borderless lightbox -->
+		<h3 class="title"></h3>
+		<a class="prev">‹</a>
+		<a class="next">›</a>
+		<a class="close">×</a>
+		<a class="play-pause"></a>
+		<ol class="indicator"></ol>
+		<!-- The modal dialog, which will be used to wrap the lightbox content -->
+		<div class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" aria-hidden="true">&times;</button>
+						<h4 class="modal-title"></h4>
+					</div>
+					<div class="modal-body next"></div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default pull-left prev">
+							<i class="glyphicon glyphicon-chevron-left"></i>
+							Previous
+						</button>
+						<button type="button" class="btn btn-primary next">
+							Next
+							<i class="glyphicon glyphicon-chevron-right"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="jumbotron" style="padding: 0">
+		<img src="img/projects/isphere/cover.png" width="100%">
+		<div class="container" style="padding: 15px">
+			HCI Project Fall 2014 | Group of 4 | Contribution: Ethnography, Ideation, Storyboard, Interactions, Usability Evaluation
+		</div>
+	</div>
+	
+	<section class = "container" style="padding-top: 0px">
+		<div class="row">
+			<div class = "col-md-12">
+				<h2>I-Sphere</h2>
+				<h3>A virtual reality based 3D Interactive web navigation Interface</h3>
+			</div>
+		</div>
+		
+		<div class="row">
+		
+			<div class = "col-md-12">
+				<p>This project was done as a part of the Summer Research intern at KAIST, South Korea. The research explores a novel hybrid interface which dynamically links a virtual reality based 3D interface object with multiple hypertext web pages. The tree or network structured 3D graphic object named I-Sphere, consists of multiple nodes and links which intuitively represents the entire 3D navigational space of a site so that the user is aware of his/her navigational position in the web search space at all times. This user operable 3D web search visual interface would give a more intuitive and information rich control over the entire search space to assist highly interactive online information navigation. I-Sphere development process followed a user centric design methodology. A prototypical 3D web search interface was conceptualized and test-built. Finally an instance of the developed interface was employed over a context and tested for usability issues. <!--<h5>Acess prototype from <a href = " http://ssel.kaist.ac.kr/xe/2314" target = "_blank"> here </a> <br/>--> </p>
+			</div>
+			
+			
+			
+			<div class = "col-xs-12 col-md-6">
+				<h4> The Idea </h4>
+				<p> The motivation behind this project was to re-imagine the 2D heirarchial structure of webpage into a 3D navigational space and replace 2D Web links with dynamically operable 3D nodes of information. The interface is a hybrid where users can switch between the meta-information of the site to specific pages with hypermedia. The user has access to his locaion on the website and capability to roll-back from the child node to parent node at any point of time. The interface was designed following a user-centered design approach and the design follows important heuristics for websites and 3D interfaces. The interface was test built and evaluated by users for the use-case of accessing information of the endangered species from the hybrid space.</p>
+			</div>
+			
+			<div class = "col-xs-12 col-md-6">
+				<h4> Decision Points</h4>
+				<p>While designing the interface constratis were put up to provide easy and fact access to information with minium frustartion and cognitve load.
+				There were a few points which were kept in mind while designing the interface like :<br />
+				~Easy navigation and way finding<br />
+				~Bridging between 3D hypermedia interface to 2D hypertext and multimedia<br />
+				~Interactive and fast search<br />
+				~Optional roll-back<br />
+				~Users: novice and experienced <br />
+				~Intuitive 2D to 3D mapping</p>
+				
+			</div>
+			
+			<div class="clearfix gap"></div>
+            <div class = "col-xs-12">
+				<center> <image src="img/projects/isphere/1.jpg" width="100%"> </center>
+			</div>
+            <div class="clearfix gap"></div>
+			
+			<div class = "col-xs-12 col-md-12"> 
+				<h4> I-Sphere Interface </h4> 
+				<p> I-sphere is a Web search interface in a 3D hierarchical tree structure wherein pieces of information are associated with represented nodes. The structure has a “root” node from which its child nodes are connected. The “root” node is metaphorically represents the “entire” website containing the information or pages associated with the website. The child nodes of the root node (primary node) is equivalent to “primary navigation menu” of any conventional website. The children of the primary nodes are the pages available on the website. As we go further deep into the structure, we have the hierarchical arrangement of the pages of the website. The interfaces is a 2D-3D hybrid where user can switch between the screen anytime form anywhere on the website. </p>
+			</div>
+		  
+			
+			<div class = "col-xs-12 col-md-12">
+				<div id="carousel-example-generic2" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic2" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic2" data-slide-to="2"></li>
+					<li data-target="#carousel-example-generic2" data-slide-to="3"></li>
+					<li data-target="#carousel-example-generic2" data-slide-to="4"></li>
+					<li data-target="#carousel-example-generic2" data-slide-to="5"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+					<div class="item active">
+					   <img src="img/projects/isphere/wireframe/Slide1.jpg" alt="..." width="100%">
+					  
+					</div>
+					<div class="item">
+					  <img src="img/projects/isphere/wireframe/Slide4.jpg" alt="..." width="100%">
+					  
+					</div>
+                    
+                    <div class="item">
+					  <img src="img/projects/isphere/wireframe/Slide6.jpg" alt="..." width="100%">
+					 
+					</div>
+                    
+                    <div class="item">
+					  <img src="img/projects/isphere/wireframe/Slide2.jpg" alt="..." width="100%">
+					  
+					</div>
+                    
+                    <div class="item">
+					  <img src="img/projects/isphere/wireframe/Slide3.jpg" alt="..." width="100%">
+					  
+					</div>
+                    <div class="item">
+					  <img src="img/projects/isphere/wireframe/Slide5.jpg" alt="..." width="100%">
+					  
+					</div>
+                    
+					</div>
+
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic2" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic2" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+            
+            <div class="clearfix gap"></div>
+            </br>
+            
+            <div class = "col-xs-12 col-md-6">
+				<div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic1" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic1" data-slide-to="2"></li>
+					<li data-target="#carousel-example-generic1" data-slide-to="3"></li>
+					<li data-target="#carousel-example-generic1" data-slide-to="4"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+					<div class="item active">
+					  <img src="img/projects/isphere/B1.jpg" alt="...">
+					  <div class="carousel-caption">
+						...
+					  </div>
+					</div>
+					<div class="item">
+					  <img src="img/projects/isphere/3.jpg" alt="...">
+					  <div class="carousel-caption">
+						...
+					  </div>
+					</div>
+                    
+                    <div class="item">
+					  <img src="img/projects/isphere/4.jpg" alt="...">
+					  <div class="carousel-caption">
+						...
+					  </div>
+					</div>
+                    
+                    <div class="item">
+					  <img src="img/projects/isphere/6.jpg" alt="...">
+					  <div class="carousel-caption">
+						...
+					  </div>
+					</div>
+                    
+                    <div class="item">
+					  <img src="img/projects/isphere/v1.jpg" alt="...">
+					  <div class="carousel-caption">
+						...
+					  </div>
+					</div>
+                    
+					</div>
+
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic1" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic1" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+			
+			
+			
+			
+			<div class = "col-xs-12 col-md-6"> 
+				<h4> Prototype </h4> 
+				<p>The prototype is a high fidelity model of the system with basic navigations and options. It makes extensive use of the attributes of the 3D object to display/visualize information like size, color, neighborhood, alignment etc. Since the prototype uses VRML browser, it uses all the navigation techniques provided by it like zoom, pan, rotate, turn, change in viewpoint, dragging etc. Upon clicking the node, it expands to its children node and the associated Web object is displayed on the right hand side of the screen. The prototype is developed as a proof-of-concept and thus is very basic and limited in functionality.  Also, the prototype requires VRML plugin to run which depending on the browser is either pre-installed or has to be installed by the user.<br /></p> 
+			</div>
+			
+			<div class="clearfix gap"></div>
+			
+			
+			
+			<div class = "col-xs-12 col-md-6" "row"> 
+				<h4> User Evaluation </h4> 
+				<p>The usability evaluation of the interface was conducted with 11 participants with the aim to identify usability issues with the design and test level of satisfaction of the user and acceptance of the interface. The participants were give  representative tasks and then administered with a qualitative questionnaire and System usability Scale (SUS) [Score 60.45, p&lt;0.05]</p>
+				<p>Based on the evaluation, it was found that users found the system interesting to use and could learn, understand and remember the interactions, but the 2D to 3D mapping was not intuitive and navigation was cumbersome. There were many other conclusions which informed the design for improvement like dynamic viewpoints, availability of a key to visual elements, introductort tutorial or tool-tip, etc				</p> 
+			</div>
+			
+			<div class = "col-xs-12 col-md-6" "row"> 
+				<h4> Insights </h4>
+				<p>The interface opens another dimension of information visualisation which could be tapped as the information overload increases. Improvements in the mapping of 2D input with 3D navigation can increase the usability of the system. By introducing dynamic database management and selection criteria, the system could be introduced for the e-commerce websites which could largely change the e-commerce marketing and operation scenarios. Also the system has to be evaluated for cross-platform functionality and compressed contents need to be processed for reduced browsing times. The suggested prototype model  has been visualized over a structure similar to a hierarchy tree but the information nodes could be visualized over different structures as well such as Buckminster Fullerene structure or networked mesh using different principles of organizing nodes and links of I-Sphere and mapping different interactive navigational representations.</p> 
+			</div>
+			
+			<div class="clearfix"></div>
+            
+            <div class = "col-xs-12">
+				<center> <image src="img/projects/isphere/11.jpg" width="100%"> </center>
+			</div>
+		</div>
+	</section>
+	
+
+    <footer style="background-color: #f7f7f7; padding: 25px 0px">
+        <div class="container" >
+            <div class="row">
+                <div class="col-sm-12">
+                    <span class="copyright">Copyright &copy; Apurva Gupta 2016</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+	<!-- jQuery -->
+    <script src="js/jquery.js"></script>
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+	<!-- Filters -->
+	<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+	<script src="js/main.js"></script>
+	<script src="js/isotope.min.js"></script>
+	
+	<script type="text/javascript" src="js/jquery.blueimp-gallery.min.js"></script>
+  </body>
+</html>
