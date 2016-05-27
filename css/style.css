@@ -1,10 +1,19 @@
 /* Top Navigation */
 .navbar{
 	margin-bottom: 0px;
-	background-color: #ffffff;
+	background-color: #000000;
 }
 
 .navbar-default .navbar-brand{
+	color: #FFC107;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #EEEEEE;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    background-color: #222222;
 	color: #FFC107;
 }
 
@@ -26,9 +35,13 @@ section {
 }
 
 /* Portfolio */
+.thumbnail{
+	background-color: #000000;
+}
+
 .portfolio-item  a{
 	text-decoration: none;
-	color:#333;
+	color: #EEEEEE;
 }
 
 /* Filters */
