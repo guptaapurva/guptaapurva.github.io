@@ -1,14 +1,18 @@
 /* Top Navigation */
 .navbar{
 	margin-bottom: 0px;
-	background-color: #000000;
+	background-color: #212121;
 }
 
 .navbar-default .navbar-brand{
 	color: #FFC107;
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-brand:hover{
+	color: #cccccc;
+}
+
+.navbar-default .navbar-nav>li>a{
     color: #EEEEEE;
 }
 
@@ -36,13 +40,39 @@ section {
 
 /* Portfolio */
 .thumbnail{
-	background-color: #000000;
+	background-color: #212121;
 }
 
 .portfolio-item  a{
 	text-decoration: none;
 	color: #EEEEEE;
 }
+
+.portfolio-item :hover{
+	text-decoration: none;
+	color: #ffc107;
+	
+}
+
+.portfolio-item {
+    -webkit-transition: all 0.2s ease; /* Safari and Chrome */
+    -moz-transition: all 0.2s ease; /* Firefox */
+    -ms-transition: all 0.2s ease; /* IE 9 */
+    -o-transition: all 0.2s ease; /* Opera */
+    transition: all 0.2s ease;
+}
+
+.portfolio-item:hover  {
+    -webkit-transform:scale(1.04); /* Safari and Chrome */
+    -moz-transform:scale(1.04); /* Firefox */
+    -ms-transform:scale(1.04); /* IE 9 */
+    -o-transform:scale(1.04); /* Opera */
+     transform:scale(1.04);
+}
+
+
+
+
 
 /* Filters */
 ul.filter > li > a {
