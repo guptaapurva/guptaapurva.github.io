@@ -103,49 +103,145 @@
 		</div>
 		
 		<div class="row">
-			<div class = "col-md-12">
-				<p>The project was done in collaboration with Microsoft IDC, India. The project introduces a pen-based gestural interactions for digital note taking application designed for tablets. The application  leverages the experience of paper and the power of digital medium to create more productive content. The application is designed for college students who are required to take notes regularly. The interaction model introduces the concept of “second-screen”- an overlay over the input-space on the screen to initiate and perform gesture without disrupting the flow of the task. The gestures are inspired from the day-to-day interactions that people do while making notes or documenting information. The design of interactions was achieved by following a user-centered design process involving an extensive user study through semi-structured interviews and activity-based analysis of user’s interactions with pen, paper and tablets. The concept is further expanded to include tasks which enable the user to become a power user and accomplish other tasks associated with the application efficiently.<!--<h5>Acess prototype from <a href = " http://ssel.kaist.ac.kr/xe/2314" target = "_blank"> here </a> <br/>--> </p>
-			</div>
-			
-			<div class = "col-xs-12">
-					<div class="videoWrapper">
-						<center><iframe width="640" height="360" src="http://www.youtube.com/embed/ASaXe4QybIA" frameborder="0" allowfullscreen></iframe></center>
-					</div>
-				</div>
-			
-			<div class = "col-xs-12 col-md-6">
-				<h4>Understanding the Requirement</h4>
-				<p>We followed a user centered design process and conducted Preceptual walkthrough, Role playing, Semi-structured interviews and Activity based task analysis with paper-pen and tablet-stylus. We also did a literature review of pen computing to understand the strnghts and limitations of existing technology. We conducted a competetive analysis of available application in the market to understand the most common and desirable features and look for potential gaps n the existing solutions.</p>
-			</div>
-			
-			<div class = "col-xs-12 col-md-6">
-				<h4>Decision points</h4>
-				<p>~Limitaion of screen space since input-output space is same. <br />
-				  ~Preventing error by mis-interpretation of gesture as text. Thus, introduction of the  second screen is a trade off between error preventions and addition of extra steps<br />
-				  ~Multiple access points to perform the same function<br />
-				  ~Catalog for recently used Functions for quick access <br />
-				~Mode Change Mechanism for changing from second screen to main screen</p>
-			</div>
-			
-			<div class="clearfix"></div>
-			
-			<div class = "col-xs-12 col-md-6"> 
-				<h4> Concept and Mockups</h4>
-				<p>Based on the insights from the user study, we designed an inking app aimed at college students who frequently take and share notes. The app introduces the concept of “second screen”. This second screen is an unobtrusive mode where user can take notes and perform functions on it. Once the user opens the app and begins writing, he long presses the stylus, to mark or highlight text. A translucent overlay appears on the top the screen referred to as “second screen”. User can select the text here and perform the gesture like “question mark” for marking doubts, “star” for important, etc. Once the actions are completed on this screen, the user can long press to exit the screen and continue writing.</p>
-				<p>&nbsp;</p>
-			</div>
-		  
-			<div class = "col-xs-12 col-md-6"> 
-				<h4>Insights</h4>
-				<p>The user study revealed that there still are gaps in representing the actual feel of pen-paper. This project attempted to go one step closer in reducing the gap. The application is still in the mockup phase. It has to be test build and evaluated to validate all the design decisions that were undertaken. Pen based gestures discussed  are still limited to only few gestures, mostly due to the argument of limited number of gestures that users can remember. But by having multiple gestures and keywords for same function and adding user defined gestures, we can increase the usability of system. Moreover these gestures can be standardized across devices for increased memorability. The users also mentioned difficulty in managing their notes. The proposed solution can be integrated with better techniques of storing and archiving the notes for better retrieval.</p>
+			<div class="col-sm-12">
+					<p> Although the existing inking and notetaking apps for tablet like Evernote, OneNote etc. are powerful, but they do not harness all the capabilities of digital medium. Features in these app are limited to most common functions like cut, copy, paste, undo, redo, stroke color changes, etc. The digital medium is very powerful and can do many more things like perform calculations, visualize, search etc. We are trying to embed these features in a note taking app without complicating its interface. We propose a novel stylus based gesture and keyword recognition system that can be used to access these features in simpler way. </p> <br>
+					
+					<div class="videoWrapper"><center><iframe width="640" height="360" src="http://www.youtube.com/embed/ASaXe4QybIA" frameborder="0" allowfullscreen></iframe></center></div> <br>
+						
+					<h4>Introduction</h4>
+						<p>Market is flooded with apps that use Inking capabilities, so it was important for us to understand- What all is already existing? What are most common features in inking applications? Gaps in the existing market? Simultaneously, a study of research papers helped us in defining some problems that users face while using inking applications and their solutions.</p> <br>
+						
+						<blockquote style="font-size: 24px; line-height: 1.5; text-align: center; border: none;">Design an app for touch devices that uses Inking (Pen based input on digital canvas) as the primary way of input and creation.</blockquote> <br>
+						
+					<h4>Understanding behavior of users</h4>
+						<p>Users were questioned to understand their existing inking patterns and needs. Questions for user study encompassed all three aspects of inking i.e. notes, diagrams and drawings. Ten users were interviewed in the process. </p> <br>
+						
+						<p>
+							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+								<!-- Indicators -->
+								<ol class="carousel-indicators">
+									<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="5"></li>
+								</ol>
 
-			</div>
-			
-			<div class="clearfix"></div>
-			
-			<div class = "col-md-12">
-				<div class="videoWrapper">
-					<iframe src="https://onedrive.live.com/embed?cid=3BADA6A950BCEB70&resid=3BADA6A950BCEB70%21748&authkey=AFj-ERtZCqB5Pvs&em=2" width="402" height="327" frameborder="0" scrolling="no"></iframe>
+								<!-- Wrapper for slides -->
+								<div class="carousel-inner">
+									<div class="item active">
+										<a href="img/projects/inking/i3.jpg" title="User's Notebooks" data-gallery> <img src="img/projects/inking/i3.jpg" alt="User's Notebooks"> </a>
+										<div class="carousel-caption">
+										User's Notebooks
+										</div>
+									</div>
+
+									<div class="item">
+										<a href="img/projects/inking/i9.jpg" title="User Interviews Analysis" data-gallery> <img src="img/projects/inking/i9.jpg" alt="User Interviews Analysis"> </a>
+										<div class="carousel-caption">
+										User Interviews Analysis
+										</div>
+									</div>
+									<div class="item">
+										<a href="img/projects/inking/i4.jpg" title="Users inking on paper" data-gallery> <img src="img/projects/inking/i4.jpg" alt="Users inking on paper"> </a>
+										<div class="carousel-caption">
+										Activity: Users inking on paper
+										</div>
+									</div>
+									
+									<div class="item">
+										<a href="img/projects/inking/i4_1.jpg" title="Users notes on paper" data-gallery> <img src="img/projects/inking/i4_1.jpg" alt="Users notes on paper"> </a>
+										<div class="carousel-caption">
+										Activity: Users notes on paper
+										</div>
+									</div>
+									
+									<div class="item">
+										<a href="img/projects/inking/i5.jpg" title="Users inking on tablet" data-gallery> <img src="img/projects/inking/i5.jpg" alt="Users inking on tablet"> </a>
+										<div class="carousel-caption">
+										Activity: Users inking on tablet
+										</div>
+									</div>
+									
+									<div class="item">
+										<a href="img/projects/inking/i5_1.jpg" title="Users notes on tablet" data-gallery> <img src="img/projects/inking/i5_1.jpg" alt="Users notes on tablet"> </a>
+										<div class="carousel-caption">
+										Activity: Users notes on tablet
+										</div>
+									</div>
+								</div>
+
+								<!-- Controls -->
+								<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left"></span>
+								</a>
+								<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right"></span>
+								</a>
+							</div>
+						</p> <br>
+						
+						<p>We conducted as a way to observe notetaking behavior of users. We asked users to take lecture notes on paper and on tablet. We observed what interactions were natural on paper and how were they different as compared to tablet. Combining these we were able to observe some interaction patterns for the users. Two different activities were undertaken by 5 users each.</p> <br>
+						
+						<blockquote style="font-size: 24px; line-height: 1.5; text-align: center; border: none;">Design interactions for a digital note taking application which leverages the experience of paper and the power of digital medium to create more productive content for college students.</blockquote>
+		
+					<br>
+					
+					<h4>Insights</h4>
+						<p>We came across some really interesting insights. Users performed micro-interactions like making side notes, “underlining” important points and marking content for later review using different symbols, markers etc. They used other tools in association with the activity of notetaking like calculators, convertors, graphs, etc. They didn't want to think too much while taking notes. They used non-preferred hand for interacting with paper: using one hand to move (reposition) the paper and other to write on paper.</p> <br>
+						
+						<div class="row" style="text-align: center">
+							<div class="col-md-offset-2 col-xs-6 col-sm-3 col-md-2"> <img src="img/projects/inking/icon1.png" width="100%" alt="Micro-interections "> <br> Micro-interections </div>
+							<div class="col-xs-6 col-sm-3 col-md-2"> <img src="img/projects/inking/icon2.png" width="100%" alt="Use of other tools"> <br> Use of other tools</div>
+							<div class="col-xs-6 col-sm-3 col-md-2"> <img src="img/projects/inking/icon3.png" width="100%" alt="Simple"> <br> Simple </div>
+							<div class="col-xs-6 col-sm-3 col-md-2"> <img src="img/projects/inking/icon4.png" width="100%" alt="Use of Non-preferred hand"> <br> Use of Non-preferred hand </div>
+						</div>
+					
+					<div class="clearfix"> </div> <br>
+					
+					<h4>Scenarios</h4>
+						<p>Then we thought about ideas to solve the problem along with scenarios in with scenarios in which they could help. Two scenarios that stood out to us were using a second surface were we can keep notes and second using gestures to perform tasks such as adding reminders, highlighting etc. </p> <br>
+						<p>
+							<div id="carousel-example-generic2" class="carousel slide" data-ride="carousel2">
+								<!-- Indicators -->
+								<ol class="carousel-indicators">
+									<li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel-example-generic2" data-slide-to="1"></li>
+								</ol>
+
+								<!-- Wrapper for slides -->
+								<div class="carousel-inner">
+									<div class="item active">
+										<a href="img/projects/inking/i7.jpg" title="A tool centered interface" data-gallery> <img src="img/projects/inking/i7.jpg" alt="A tool centered interface"> </a>
+										<div class="carousel-caption">
+										A tool centered interface
+										</div>
+									</div>
+
+									<div class="item">
+										<a href="img/projects/inking/i8.jpg" title="Second Surface: an actionable space for your static notes" data-gallery> <img src="img/projects/inking/i8.jpg" alt="Second Surface: an actionable space for your static notes"> </a>
+										<div class="carousel-caption">
+										Second Surface: an actionable space for your static notes
+										</div>
+									</div>
+								</div>
+
+								<!-- Controls -->
+								<a class="left carousel-control" href="#carousel-example-generic2" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left"></span>
+								</a>
+								<a class="right carousel-control" href="#carousel-example-generic2" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right"></span>
+								</a>
+							</div>
+						</p> <br>
+				
+					<h4>Concept and Prototype</h4>
+						<blockquote style="font-size: 24px; line-height: 1.5; text-align: center; border: none;">Augment capability of notetaking app by providing advanced features using gestures or keywords.</blockquote>
+						<p>How many additional features does evernote provide as compared to paper? The current app like evernote, one note etc. have only few features like cut, copy, paste, undo redo stroke colour and width change, etc. But digital medium is very powerful and can do many things like perform calculations, visualize, search etc. We are trying to provide these features using a note taking app. These functions have common umbrella of accessing them i.e. pen based gestures/ keywords. A prototype with animation and gestures was designed using powerpoint.</p> <br>
+						<p><a href="img/projects/inking/i10.jpg" title="Prototype" data-gallery><img src="img/projects/inking/i10.jpg" alt="Prototype" width="100%"></a></p> <br>
+						<p>Novelty of the app lies in the way user interacts with the system to perform common tasks. The gestures are adopted from the daily behavior of user while taking notes. </p><br>
 				</div>
 			</div>
 		</div>	
