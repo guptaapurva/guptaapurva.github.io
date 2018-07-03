@@ -1,0 +1,380 @@
+body {
+	font-family: 'Avenir', 'Raleway', sans-serif;
+	font-weight: 300;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #757575;
+	/*padding-top: 50px;*/
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+	font-family: 'Avenir', 'Raleway', sans-serif;
+	font-weight: 300;
+	color: #3a3a3a;
+}
+
+/* Top Nav Bar */
+
+.navbar-default {
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.navbar-default .navbar-brand {
+    color: #03a9f4;
+}
+
+.navbar-right {
+    margin-right: 0px;
+}
+
+.navbar-fixed-top{
+	margin-bottom:0px;
+	border: 0px;
+	-webkit-box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.25);
+	box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.25);
+}
+
+.nav-projects{
+	background-color: #03a9f4;
+}
+
+blockquote {
+	border-left:5px solid #03a9f4;
+	background-color: #f5f5f5;
+}
+
+/* Project Title */
+.project-jumbotron{
+	margin: 0px;
+	min-height: 300px
+}
+
+.project-title {
+	background-color:#eeeeee;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.project-title h3 {
+	font-weight: 600;
+}
+
+/* Project Text */
+.project_content {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.75;
+	color: #757575;
+	text-align: justify;
+}
+
+.project_content .sub-heading{
+	font-weight: 500;
+}
+
+.project_content h4{
+	font-weight: 300;
+	color: #03a9f4;
+	font-size: 20px;
+}
+
+.project_content b{
+	color: #212121;
+}
+
+.project_content .intro_para {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: normal;
+	color: #333333;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.emphasis {
+	font-weight: bold;
+	/* color: #03a9f4; */
+	/* font-size: 120%; */
+}
+
+.image-quote{
+	text-align:center;
+	padding: 50px 10px;
+	color: #ffffff;
+}
+
+.image-quote small{
+	color: #03a9f4;
+}
+
+/* Project Thumbnails home page */
+.newportfoliolist{
+	width: 100%;
+	height: 300px; 
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+	display: table;
+}
+
+.newportfoliolist span{
+	display: none;
+}
+
+.newportfoliolist:hover span {
+		display: table-cell;
+		vertical-align: middle;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.65);
+		background-blend-mode: normal;
+		color: white;
+}
+
+.newportfoliolist span h3, .newportfoliolist span h3 small {
+	color: white
+}
+
+
+/* Project Thumbnails home page */
+#portfoliolist .portfolio .thumbnail {
+	border: None;
+	box-shadow: None;
+	background-color: #FFFFFF;
+	text-align: center;
+	/* box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2); */
+	font-weight: 500;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+#portfoliolist .portfolio .thumbnail h4{
+	line-height: 1.25;
+	color: #37474F; /* #0072BB; */
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+}
+
+#portfoliolist .portfolio .thumbnail:hover {
+	-moz-box-shadow: 5px 5px 5px #c5c5c5;
+	-webkit-box-shadow: 5px 5px 5px #c5c5c5;
+	box-shadow: 5px 5px 5px #c5c5c5;
+}
+
+.badge {
+	border-radius: 0px;
+	font-weight: normal;
+	color: #808080;
+	background-color: #F5F5F5;
+}
+
+#portfoliolist .portfolio .thumbnail a div{
+	margin: 5%;
+}
+
+#portfoliolist .portfolio .thumbnail a{
+	text-decoration: none;
+}
+
+#portfoliolist .portfolio .thumbnail:hover{
+	background-color: #fcfcfc;
+}
+
+
+/*
+ * Side navigation
+ *
+ * Scrollspy and affixed enhanced navigation to highlight sections and secondary
+ * sections of docs content.
+ */
+
+/* By default it's not affixed in mobile views, so undo that */
+.bsnavbar
+{
+  margin-bottom: 19px;
+  min-height:124px;
+}
+
+.bs-sidebar.affix {
+  position: static;
+}
+
+/* First level of nav */
+.bs-sidenav {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top:    10px;
+  padding-bottom: 10px;
+  text-shadow: 0 1px 0 #fff;
+  background-color: #f5f5f5;
+}
+
+/* All levels of nav */
+.bs-sidebar .nav > li > a {
+  display: block;
+  color: #716b7a;
+  padding: 5px 20px;
+}
+.bs-sidebar .nav > li > a:hover,
+.bs-sidebar .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+
+}
+.bs-sidebar .nav > .active > a,
+.bs-sidebar .nav > .active:hover > a,
+.bs-sidebar .nav > .active:focus > a {
+  font-weight: bold;
+  color: #2e8bcc;
+  background-color: transparent;
+  border-right: 1px solid #2e8bcc;
+}
+
+
+.bs-sidebar .nav .nav > li > a {
+  padding-top:    3px;
+  padding-bottom: 3px;
+  padding-left: 30px;
+  font-size: 90%;
+}
+
+.bs-footer .container{
+	background-color: #f5f5f5;
+}
+
+/* Show and affix the side nav when space allows it */
+@media (min-width: 992px) {
+  .bs-sidebar .nav > .active > ul {
+    display: block;
+  }
+  /* Widen the fixed sidebar */
+  .bs-sidebar.affix,
+  .bs-sidebar.affix-bottom {
+    width: 213px;
+  }
+  .bs-sidebar.affix {
+    position: fixed; /* Undo the static from mobile first approach */
+
+  }
+  .bs-sidebar.affix-bottom {
+    position: absolute; /* Undo the static from mobile first approach */
+  }
+  .bs-sidebar.affix-bottom .bs-sidenav,
+  .bs-sidebar.affix .bs-sidenav {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 1200px) {
+  /* Widen the fixed sidebar again */
+  .bs-sidebar.affix-bottom,
+  .bs-sidebar.affix {
+    width: 263px;
+  }
+}
+
+/*
+ Resume
+ */
+ .resume_element{
+	margin-bottom: 30px
+ }
+
+
+ /*
+ * Footer
+ *
+ * Separated section of content at the bottom of all pages, save the homepage.
+ */
+
+.bs-footer {
+  padding-top: 0px;
+  margin-top: 2%;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.bs-footer .container {
+	padding: 15px 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+.footer-links {
+  margin: 10px 0;
+  padding-left: 0;
+}
+.footer-links li {
+  display: inline;
+  padding: 0 2px;
+}
+.footer-links li:first-child {
+  padding-left: 0;
+}
+
+@media (min-width: 768px) {
+  .bs-footer {
+    text-align: left;
+  }
+  .bs-footer p {
+    margin-bottom: 0;
+  }
+}
+
+
+
+@media all and (min-width: 900px) {
+	.two-column-flow  {
+		-webkit-column-count: 2;
+		-webkit-column-gap: 3%; /* Saf3, Chrome*/
+		-moz-column-count: 2;
+		-moz-column-gap: 3%; /* FF3.5+ */
+		column-count: 2;
+		column-gap: 3%; /* Opera 11+*/
+	}
+
+	.three-column-flow  {
+		-webkit-column-count: 3;
+		-webkit-column-gap: 1%; /* Saf3, Chrome*/
+		-moz-column-count: 3;
+		-moz-column-gap: 1%; /* FF3.5+ */
+		column-count: 3;
+		column-gap: 1%; /* Opera 11+*/
+	}
+}
+
+.current{
+	background-color: transparent;
+	border: none;
+	border-top: 1px solid #ddd;
+	cursor: default;
+	color: #fff;
+}
+
+.current a{
+	border: none;
+	border-top: 1px solid #ddd;
+	cursor: default;
+	color: #fff;
+}
+
+/* Special */
+.mavenly-screens {
+	font-size: 12px;
+	color: #000000;
+}
