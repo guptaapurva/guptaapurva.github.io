@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mehul Agrawal | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Mehul Agrawal">
+	<link rel="icon" type="image/png" href="../favicon.png" />
+
+    <!-- Le styles -->
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../docs/font-awesome.css">
+	<link rel="stylesheet" href="../css/style.css">
+
+	<link rel="stylesheet" href="../css/blueimp-gallery.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,600,700" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Place anything custom after this. -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-57952563-1', 'auto');
+	ga('send', 'pageview');
+	</script>
+
+	<style>
+		.jumbotron::before {
+			filter: url('#blur');
+			filter: blur(5px);
+		}
+	</style>
+
+</head>
+  <body>
+
+	<!-- Navigaton -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div>
+		  <!-- Brand and toggle get grouped for better mobile display -->
+		  <div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			  <span class="sr-only">Toggle navigation</span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="../index.html">Apurva Gupta</a>
+		  </div>
+
+		  <!-- Collect the nav links, forms, and other content for toggling -->
+		  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+			  <!-- <li> <a href="index.html#projects">Projects</a> </li> -->
+			  <li><a href="#projects">Case Studies</a></li>
+        <li><a href="../expirement.html">Experiments</a></li>
+        <li><a href="../about.html">About</a></li>
+			</ul>
+		  </div><!-- /.navbar-collapse -->
+	  </div>
+	</nav>
+
+	<!-- Bootstrap Image Gallery lightbox -->
+	<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+		<!-- The container for the modal slides -->
+		<div class="slides"></div>
+		<!-- Controls for the borderless lightbox -->
+		<h3 class="title"></h3>
+		<a class="prev">‹</a>
+		<a class="next">›</a>
+		<a class="close">×</a>
+		<a class="play-pause"></a>
+		<ol class="indicator"></ol>
+		<!-- The modal dialog, which will be used to wrap the lightbox content -->
+		<div class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" aria-hidden="true">&times;</button>
+						<h4 class="modal-title"></h4>
+					</div>
+					<div class="modal-body next"></div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default pull-left prev">
+							<i class="glyphicon glyphicon-chevron-left"></i>
+							Previous
+						</button>
+						<button type="button" class="btn btn-primary next">
+							Next
+							<i class="glyphicon glyphicon-chevron-right"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <div class="project_content" id="links" style="padding-top: 100px">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-8 col-md-offset-2">
+
+          <h3>
+            SavvyMoney Analytics<!-- <small>Motion-Based Mobile/Wearable Experience prototyping</small>-->
+          </h3><br>
+
+          <h4 style="color: black">Background</h4>
+            <p>SavvyMoney Analytics is a B2B product offering by SavvyMoney.Inc which sits in a unique spot and serves 2 purposes:</p>
+            <ol>
+              <li>User Tracking and ROI Analysis: This provides partner an insight into the SavvyMoney membership, their behavior on the product and how SavvyMoney program has resulted in their financial growth.</li>
+              <li>Lead generation through running campaign: This is the more interactive component of the product which lets the partner see the missed opportunities and run targeted campaigns on members based on their credit portfolio.</li>
+            </ol><br>
+            <p>The product's beta version was released in Q1 2017 to a few selected partners and since then has become a major selling point for partners to join SavvyMoney.</p><br>
+
+          <h4 style="color: black">My Role</h4>
+          I worked as the Product Owner and Designer to build  the UI of the platform and plan the partner roll-out. I also setup an improved partner on-boarding process and led the project from definition through release.</p><br>
+
+          <h4 style="color: black">Interface Design</h4>
+            <p>The UI for the analytics platform leveraged native features offered by Spotfire. The dashboard and reports are designed using simple charts, graphs and tables that best represent the varied datasets. The selection of the visualization techniques banks upon Ben Shneiderman's mantra:</p>
+            <blockquote>Overview first, zoom and filter, then details on demand.</blockquote>
+            <p>The UI was designed and built directly within Spotfire using its UI features, skeleton and templates. There are 3 dashboards with multiple reports within each dashboard. The dashboards represent the three key value propositions for the partners:</p>
+
+            <ol>
+              <li><b>Analyze Credit:</b> The Analyze Credit dashboard allows financial institutions to analyze their users' distribution across different score ranges and the financial institution's wallet share. They can analyze credit score trends for 6 months and 12 months and other key lenders across various lending categories.
+              <li><b>Track Activity:</b> The Track Activity dashboard allows financial institutions to understand their users' usage pattern with the SavvyMoney product: new sign-ups, login activity, click activity and offer impressions.
+              <li><b>Explore Campaigns:</b> The Explore Campaigns dashboard allows financial institutions to explore lending opportunities and analyze APRs by making use of multiple features across score range, accounts and product types.
+            </ol><br>
+
+            <p>After the beta release, I conducted 1:1 user testing sessions and analyzed partner feedback through surveys and/or word-of-mouth to understand if</p>
+            <ol>
+              <li>The reports were useful to the partners,
+              <li>Language and filters were consistent with industry standard,
+              <li>Other potential use-cases that these reports can be used.
+              <li>General usability of the product.
+            </ol><br>
+
+            <p>Based on the feedback, changes were made and processes were improved. Certain features from the results have been tabled for v2 of the product.</p><br>
+
+              <h4 style="color: black">Partner On-boarding Process</h4>
+              <p><b>Problem:</b> For the beta launch, a simple on-boarding process was setup wherein, specific partner organizations were demoed the product and a few people (users) on their team were given access. Due to the nature of information, the access needed to be vetted and approved. As the interest in the product started growing, there were more user requests, and soon the user set-up became inefficient with potential security risk.</p><br>
+
+              <p><b>Motivation:</b></p>
+              <ol>
+                <li>Increase Automation and reduce time spent on tasks
+                <li>Reduce vulnerability to any security incident
+                <li>Improve the User experience
+              </ol><br>
+
+              <p><b>Process:</b> A task flow audit was conducted, from on-boarding a partner to Analytics, setting up new users to finally user using the product. Based on the audit, a new workflow was proposed and implemented.</p><br>
+              <p><b>Impact:</b> The impact of the new process was manifold and instantly visible.</p>
+              <ol>
+                <li>It reduced the user set-up time from the initial request to user getting access from 2–5 business days to almost real-time.</li>
+                <li>The automation saved at least 10–15 hours of developer time per month.</li>
+                <li>The new process decreased the security risk by bringing all information within internal databases.</li>
+                <li>The chain of command made getting through  the support tickets more efficiently.</li>
+              </ol><br>
+
+              <h4 style="color: black">Next Steps</h4>
+              <p>The partners have been very excited about the product and have been asking more capabilities to be added. We are currently working on the V2 which will offer improved scalability, better reports and enhanced user experience.</p><br>
+
+              <h4 style="color: black">Key Learnings</h4>
+              <p>Through this project I wore multiple hats, that of a designer, an analyst, a systems architect, a QA engineer, a support specialist and above all a PRODUCT OWNER. This helped me learn many valuable technical skills related to integrations, api, workflows, email clients etc. and also develop soft skills to successfully collaborate with different teams spread across the company and across the globe!</p><br>
+
+        </div>
+			</div>
+		</div>
+	</div>
+
+     <!-- Footer
+      ================================================== -->
+
+	<footer class="bs-footer" role="contentinfo">
+		<div class="container">
+			<p class="pll-left col-xs-4" style="padding-top: 7px; padding-bottom: 7px">Developed by Mehul Agrawal</p>
+			<p class="pull-right col-xs-8" style="text-align: right; text-align: -webkit-right;">
+				<a href="mailto:agrawal.mehul92@gmail.com"> <img src="image/assets/email.png" width="35px"> </a> &nbsp;
+				<a href="https://www.linkedin.com/in/mehulagr"> <img src="image/assets/linkedin.png" width="35px"> </a> &nbsp;
+				<a href="http://www.slideshare.net/MehulAgarwal"> <img src="image/assets/slideshare.png" width="35px"> </a>
+			</p>
+		</div>
+	</footer>
+
+
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="../docs/jquery-1.8.0.js"></script>
+	<script type="text/javascript" src="../docs/bootstrap.js"></script>
+	<script type="text/javascript" src="../docs/application.js"></script>
+	<script type="text/javascript" src="../docs/jquery.validate.js"></script>
+	<script type="text/javascript" src="../docs/jquery.validate.unobtrusive.js"></script>
+	<script type="text/javascript" src="../docs/jquery.unobtrusive-ajax.js"></script>
+	<script type="text/javascript" src="../docs/metro-bootstrap/metro-docs.js"></script>
+
+	<script type="text/javascript" src="../docs/jquery.blueimp-gallery.min.js"></script>
+
+  </body>
+</html>

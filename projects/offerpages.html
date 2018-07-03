@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mehul Agrawal | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Mehul Agrawal">
+	<link rel="icon" type="image/png" href="../favicon.png" />
+
+    <!-- Le styles -->
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../docs/font-awesome.css">
+	<link rel="stylesheet" href="../css/style.css">
+
+	<link rel="stylesheet" href="../css/blueimp-gallery.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,600,700" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Place anything custom after this. -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-57952563-1', 'auto');
+	ga('send', 'pageview');
+	</script>
+
+	<style>
+		.jumbotron::before {
+			filter: url('#blur');
+			filter: blur(5px);
+		}
+	</style>
+
+</head>
+  <body>
+
+	<!-- Navigaton -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div>
+		  <!-- Brand and toggle get grouped for better mobile display -->
+		  <div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			  <span class="sr-only">Toggle navigation</span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="../index.html">Apurva Gupta</a>
+		  </div>
+
+		  <!-- Collect the nav links, forms, and other content for toggling -->
+		  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+			  <!-- <li> <a href="index.html#projects">Projects</a> </li> -->
+			  <li><a href="#projects">Case Studies</a></li>
+        <li><a href="../expirement.html">Experiments</a></li>
+        <li><a href="../about.html">About</a></li>
+			</ul>
+		  </div><!-- /.navbar-collapse -->
+	  </div>
+	</nav>
+
+	<!-- Bootstrap Image Gallery lightbox -->
+	<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+		<!-- The container for the modal slides -->
+		<div class="slides"></div>
+		<!-- Controls for the borderless lightbox -->
+		<h3 class="title"></h3>
+		<a class="prev">‹</a>
+		<a class="next">›</a>
+		<a class="close">×</a>
+		<a class="play-pause"></a>
+		<ol class="indicator"></ol>
+		<!-- The modal dialog, which will be used to wrap the lightbox content -->
+		<div class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" aria-hidden="true">&times;</button>
+						<h4 class="modal-title"></h4>
+					</div>
+					<div class="modal-body next"></div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default pull-left prev">
+							<i class="glyphicon glyphicon-chevron-left"></i>
+							Previous
+						</button>
+						<button type="button" class="btn btn-primary next">
+							Next
+							<i class="glyphicon glyphicon-chevron-right"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <div class="project_content" id="links" style="padding-top: 100px">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-8 col-md-offset-2">
+
+          <h3>Offer Pages</h3><br>
+
+          <blockquote>"The simplicity of the site. Just enough information presented and very easy to navigate."</blockquote> <br>
+
+					<h4 style="color: black">Design Statement</h4>
+            <p>Re-define the user experience of the offers/savings page for the product.</p><br>
+
+          <h4 style="color: black">Problems with current page</h4>
+            <ol>
+              <li>The navigation to other offers in the same product type was un-intuitive.</li>
+              <li>The value proposition and/or savings for the offer were less apparent and hidden under "Your Savings".</li>
+              <li>Tracking: Since all the offers were in one page, current implementation of the page made it difficult to track what offers were being interacted with.</li>
+            </ol> <br>
+
+          <h4 style="color: black">Motivations</h4>
+            <ol>
+              <li>Transparency: Expose what the user will pay and how much (if at all) would the user save with the recommended offer.</li>
+              <li>Comparison: Better visual way to compare all available offers.</li>
+              <li>Edge Cases: Data analysis revealed that around 40–50% of the user base will eventually see any offer. Others might either not be eligible for any offer or not have savings. The next gen designs should take care of as much of the edge cases as possible while leaving enough leeway for users to explore on their own.</li>
+              <li>Modular: De-constructing the architecture of the page which lets efficient implementation of all use cases while allowing the partners modify the marketing text and disclosure around the offers.</li>
+            </ol> <br>
+
+            <h4 style="color: black">Timeline</h4>
+            <p>The project kickstarted as a partner request to support "Student Loans" category. This was undertaken as an opportunity to redo the "Savings" area with a more consolidated page per offer type.</p><br>
+
+            <h4 style="color: black">Outcome</h4>
+            <p>This project is still ongoing with iterative changes and enhancement to features. As of Q3 2018, the improved functionality and UI was in production for Auto Loans, Student Loans, Personal Loans, Credit Cards, Home Loans and a generic offer page for all other offer types, both web and mobile.</p><br>
+
+            <h4 style="color: black">Process</h4>
+              <p>These pages were built one by one, such that certain nuances particular to the product type could be addressed properly. The process for building these page involved:</p><br>
+
+              <ol>
+                <li>Understanding the space of each product due to unfamiliarity to the finance sector.</li>
+                <li>Looking at the user data to understand the use cases and edge case scenarios.</li>
+                <li>Building task-flows , UI architecture and low-high fidelity mockups</li>
+                <li>Testing with Partners for initial feedback to understand if the concept matched the industry standards.</li>
+                <li>Building semi- functional prototype and testing for usability, user-satisfaction, aesthetic appeal and ease of use.</li>
+                <li>Designing the UI and handing off the project to the developers with detailed requirements, model calculators and UI specification.</li>
+              </ol><br>
+
+              <p>Since the pages were built one-by-one, this was truly an iterative project. Every next product page was informed by the performance of the previous pages and the improvements were implemented across all the pages.</p><br>
+
+            <h4 style="color: black">Take Away</h4>
+                <p>Being an outsider to the fin-tech industry, this project helped me get the exposure to the world of financial institutions, the nuances of how, for example, credit cards or Auto refinance works, what factors are important for the lenders and what goes into the process of loan underwriting.</p><br>
+                <p>From the technical perspective, I learned the importance of consistency across different components and pages of the product, both in terms of design and code. </p><br>
+                <blockquote>It is easy to design and build in a silo when you are focussed on task based output, losing the sight the bigger picture. It is then when you overstep consistency for getting the work done.</blockquote> <br>
+                <p>This is when I took a step back, evaluated all pages for inconsistencies. This led way to setup Design System at SavvyMoney.</p><br>
+
+        </div>
+			</div>
+		</div>
+	</div>
+
+     <!-- Footer
+      ================================================== -->
+
+	<footer class="bs-footer" role="contentinfo">
+		<div class="container">
+			<p class="pll-left col-xs-4" style="padding-top: 7px; padding-bottom: 7px">Developed by Mehul Agrawal</p>
+			<p class="pull-right col-xs-8" style="text-align: right; text-align: -webkit-right;">
+				<a href="mailto:agrawal.mehul92@gmail.com"> <img src="image/assets/email.png" width="35px"> </a> &nbsp;
+				<a href="https://www.linkedin.com/in/mehulagr"> <img src="image/assets/linkedin.png" width="35px"> </a> &nbsp;
+				<a href="http://www.slideshare.net/MehulAgarwal"> <img src="image/assets/slideshare.png" width="35px"> </a>
+			</p>
+		</div>
+	</footer>
+
+
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="../docs/jquery-1.8.0.js"></script>
+	<script type="text/javascript" src="../docs/bootstrap.js"></script>
+	<script type="text/javascript" src="../docs/application.js"></script>
+	<script type="text/javascript" src="../docs/jquery.validate.js"></script>
+	<script type="text/javascript" src="../docs/jquery.validate.unobtrusive.js"></script>
+	<script type="text/javascript" src="../docs/jquery.unobtrusive-ajax.js"></script>
+	<script type="text/javascript" src="../docs/metro-bootstrap/metro-docs.js"></script>
+
+	<script type="text/javascript" src="../docs/jquery.blueimp-gallery.min.js"></script>
+
+  </body>
+</html>
