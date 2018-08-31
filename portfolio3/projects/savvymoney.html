@@ -21,27 +21,32 @@
     <![endif]-->
 
     <!-- Place anything custom after this. -->
-	<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	ga('create', 'UA-57952563-1', 'auto');
-	ga('send', 'pageview');
-	</script>
 
-	<style>
-		.jumbotron::before {
-			filter: url('#blur');
-			filter: blur(5px);
-		}
+	<style type="text/css">
+    .panel {
+      height: 100%;
+      width: 100%;
+      margin-bottom: 0px;
+    }
+    body, html {
+      height: 100%;
+    }
+    .vcenter {
+        display: inline-block;
+        vertical-align: middle;
+        float: none;
+    }
+    .bs-footer{
+      margin-top: 0px;
+    }
 	</style>
 
 </head>
-  <body>
 
-	<!-- Navigaton -->
+<body>
+
+  <!-- Navigaton -->
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<div>
 		  <!-- Brand and toggle get grouped for better mobile display -->
@@ -67,162 +72,138 @@
 	  </div>
 	</nav>
 
-	<!-- Bootstrap Image Gallery lightbox -->
-	<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
-		<!-- The container for the modal slides -->
-		<div class="slides"></div>
-		<!-- Controls for the borderless lightbox -->
-		<h3 class="title"></h3>
-		<a class="prev">‹</a>
-		<a class="next">›</a>
-		<a class="close">×</a>
-		<a class="play-pause"></a>
-		<ol class="indicator"></ol>
-		<!-- The modal dialog, which will be used to wrap the lightbox content -->
-		<div class="modal fade">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" aria-hidden="true">&times;</button>
-						<h4 class="modal-title"></h4>
-					</div>
-					<div class="modal-body next"></div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default pull-left prev">
-							<i class="glyphicon glyphicon-chevron-left"></i>
-							Previous
-						</button>
-						<button type="button" class="btn btn-primary next">
-							Next
-							<i class="glyphicon glyphicon-chevron-right"></i>
-						</button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-    <div class="project_content" id="links" style="padding-top: 100px">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12 col-md-8 col-md-offset-2">
-
-          <div class="media">
-            <div class="media-left">
-              <a href="#">
-                <img class="media-object img-circle" src="../img/cover/cover-00.png" alt="..." >
-              </a>
-            </div>
-            <div class="media-body" id="media-body">
-              <h4 class="media-heading">SavvyMoney Inc.</h4>
-              UX Design
-            </div>
+	<section class="container" style="padding-top: 100px">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="media">
+          <div class="media-left">
+            <a href="#">
+              <img class="media-object img-circle" src="../img/cover/cover-00.png" alt="..." >
+            </a>
           </div>
-
-          <br>
-
-          <p>I have been working as a UX Designer at SavvyMoney Inc. from past 2 years. I head the UX efforts at the company and work closely with the Product team to plan enhancements and new feature roll-outs. I also wear the data analyst hat to analyze the imapct of design or partner/user portfolio. Here are some of of my projects.</p><br>
-
-          <div class="row savvymoneytiles" >
-            <div class="col-sm-8">
-                <h4>Credit Score Widget</h4>
-                <ul>
-                  <li>30-fold increase in user engagement
-                  <li>Responsive components
-                  <li>Live on 100+ partners across 10+ online banking platforms.
-                </ul>
-                <a class="btn btn-default btn-lg btn-primary" href="widget.html">View Project</a>
-            </div>
-            <div class="col-sm-4"> <img src="../img/portfolio 18/sm_main_page/widget.jpg" width="100%" /> </div>
+          <div class="media-body" id="media-body">
+            <h4 class="media-heading">SavvyMoney Inc.</h4>
+            UX Design
           </div>
-
-          <br>
-
-          <div class="row savvymoneytiles" >
-            <div class="col-sm-6"> <img src="../img/portfolio 18/sm_main_page/analytics.jpg" width="100%" /> </div>
-            <div class="col-sm-6">
-                <h4>SavvyMoney Analytics</h4>
-                <ul>
-                  <li>Data visualization
-                  <li>User access and onboarding process
-                </ul>
-                <a class="btn btn-default btn-lg btn-primary" href="analytics.html">View Project</a>
-            </div>
-          </div>
-
-          <br>
-
-          <div class="row savvymoneytiles" >
-            <div class="col-sm-6">
-                <h4>Offer Pages</h4>
-                <ul>
-                  <li>Savings calculators and offer comparison
-                  <li>Standalone page per offer type
-                </ul>
-                <a class="btn btn-default btn-lg btn-primary" href="widget.html">View Project</a>
-            </div>
-            <div class="col-sm-6"> <img src="../img/portfolio 18/sm_main_page/offerpages.jpg" width="100%" /> </div>
-          </div>
-
-          <br>
-
-          <div class="row savvymoneytiles" >
-            <div class="col-sm-6"> <img src="../img/portfolio 18/sm_main_page/creditreport.jpg" width="100%" /> </div>
-            <div class="col-sm-6">
-                <h4>Credit Report</h4>
-                <ul>
-                  <li>New Feature Rollout
-                  <li>Viewed by over 250,000 users
-                </ul>
-                <a class="btn btn-default btn-lg btn-primary" href="creditreport.html">View Project</a>
-            </div>
-          </div>
-
-          <br>
-
-          <div class="row savvymoneytiles" >
-            <div class="col-sm-6">
-                <h4>SavvyMoney Design System</h4>
-                <ul>
-                  <li>Coming Soon
-                </ul>
-                <!-- <a class="btn btn-default btn-lg btn-primary" href="widget.html">View Project</a> -->
-            </div>
-            <div class="col-sm-6"> <img src="../img/portfolio 18/sm_main_page/designsystem.jpg" width="100%" /> </div>
-          </div>
-
         </div>
-			</div>
-		</div>
-	</div>
 
-     <!-- Footer
-      ================================================== -->
+        <br>
 
-      <footer class="bs-footer" role="contentinfo">
-    		<div class="container">
-    			<p class="pull-left col-xs-6" style="padding-top: 7px; padding-bottom: 7px">Apurva Gupta</p>
-    			<p class="pull-right col-xs-6" style="text-align: right; text-align: -webkit-right;">
-    				<a href="mailto:gupta.apurva.92@gmail.com" style="text-decoration: none;"> Email </a> /
-    				<a href="https://www.linkedin.com/in/gapurva"> LinkedIn </a>
-    			</p>
-    		</div>
-    	</footer>
+        <p>I joined SavvyMoney Inc. as the only UX Designer on the team in 2016. Since then, I have been leading the UX efforts at the company. As an integral part of the Product team, I work closely with development and partnerships teams, to plan and implement enhancements and new feature roll-outs. I also wear the business analyst hat and analyze the impact of design interventions and evaluate growth of both product and partners.</p><br>
+      </div>
+    </div>
+  </section>
+
+  <div style="background-color: #f2f2f2;">
+  <section class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <h3>Design-led product development</h3>
+        <center><img src="../img/projects/savvymoney/process.svg" width="100%"/></center>
+        <p>I joined SavvyMoney Inc. as the only UX Designer on the team in 2016. Since then, I have been leading the UX efforts at the company. As an integral part of the Product team, I work closely with development.</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+  <span id="turqoise"></span>
+
+  <section class="panel turqoise" id="panel-image" style="display: table; background-color: #4FC3F7">
+    <div style="display: table-cell; vertical-align: middle">
+      <div class="container" >
+        <div class="row" >
+            <div class="col-md-4 col-md-offset-1 vcenter">
+                <center><img src="../img/projects/savvymoney/screen 1.svg" width="100%"/></center>
+            </div><!--
+            --><div class="col-md-6 vcenter" style="color: #ffffff">
+                  <h3 style="font-size: 36px; color: #ffffff; margin-top: 0px;">  Credit score, delivered straight to online banking. </h3> <br>
+                  <ul style="font-size: 20px">
+                      <li> Score widget integrated within online banking using iframe solutions and apis.
+                      <li> New design resulted in 30 fold increase in user engagement.
+                      <li> Responsive components provide flexibility over widget dimensions.
+                      <li> Live on over 125+ partners across 10+ online banking platforms.
+                  </ul> <br>
+                  <span style="font-size: 24px">“I think I'm excited about it (widget). I think that's a great thing for people to monitor their own credit this way.”  - User</span>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel turqoise" id="panel-image" style="display: table; background-color: #1E88E5">
+    <div style="display: table-cell; vertical-align: middle">
+      <div class="container" >
+        <div class="row" >
+            <div class="col-md-4 col-md-offset-1 vcenter">
+                <center><img src="../img/projects/savvymoney/screen 2.svg" width="100%"/></center>
+            </div><!--
+            --><div class="col-md-6 vcenter" style="color: #ffffff">
+                  <h3 style="font-size: 36px; color: #ffffff; margin-top: 0px;">Credit report, monitor credit information in one place.</h3> <br>
+                  <ul style="font-size: 20px">
+                    <li>Rollout increased product value and thus, partner buy-in.
+                    <li>Used by over 250,000 users to monitor credit and information on their credit files.
+                  </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel turqoise" id="panel-image" style="display: table; background-color: #9575CD">
+    <div style="display: table-cell; vertical-align: middle">
+      <div class="container" >
+        <div class="row" >
+            <div class="col-md-4 col-md-offset-1 vcenter">
+                <center><img src="../img/projects/savvymoney/screen 3.svg" width="100%"/></center>
+            </div><!--
+            --><div class="col-md-6 vcenter" style="color: #ffffff">
+                  <h3 style="font-size: 36px; color: #ffffff; margin-top: 0px;">Personalised offers and savings calculators</h3> <br>
+                  <ul style="font-size: 20px">
+                    <li> Standalone calculators and offers pages per product type - auto loans, credit cards, personal loans, student loans and HELOC’s.
+                    <li>Makes it easy to compare offers with existing debt making savings (on refinance/ debt consolidation) transparent.
+                  </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer
+   ================================================== -->
+   <footer class="bs-footer" role="contentinfo">
+     <div class="container">
+       <p class="pull-left col-xs-6" style="padding-top: 7px; padding-bottom: 7px">Apurva Gupta</p>
+       <p class="pull-right col-xs-6" style="text-align: right; text-align: -webkit-right;">
+         <a href="mailto:gupta.apurva.92@gmail.com" style="text-decoration: none;"> Email </a> /
+         <a href="https://www.linkedin.com/in/gapurva"> LinkedIn </a>
+       </p>
+     </div>
+   </footer>
 
 
-    <!-- JS and analytics only. -->
-    <!-- Bootstrap core JavaScript
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
 	================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="../docs/jquery-1.8.0.js"></script>
-	<script type="text/javascript" src="../docs/bootstrap.js"></script>
-	<script type="text/javascript" src="../docs/application.js"></script>
-	<script type="text/javascript" src="../docs/jquery.validate.js"></script>
-	<script type="text/javascript" src="../docs/jquery.validate.unobtrusive.js"></script>
-	<script type="text/javascript" src="../docs/jquery.unobtrusive-ajax.js"></script>
-	<script type="text/javascript" src="../docs/metro-bootstrap/metro-docs.js"></script>
+  <script type="text/javascript" src="../docs/jquery-1.8.0.js"></script>
 
-	<script type="text/javascript" src="../docs/jquery.blueimp-gallery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+
+  <!-- <script>
+    // init controller
+    var controller = new ScrollMagic.Controller();
+
+    $(function () { // wait for document ready
+      // build scene
+      var scene = new ScrollMagic.Scene({triggerElement: "#turqoise", duration: 400})
+              .setPin("#panel-image")
+              .addIndicators({name: "1 (duration: 400)"}) // add indicators (requires plugin)
+              .addTo(controller);
+    });
+  </script> -->
+
 
   </body>
 </html>

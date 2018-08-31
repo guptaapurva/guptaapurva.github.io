@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="947px" height="236px" viewBox="0 0 947 236" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 16</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy-14" transform="translate(-248.000000, -534.000000)">
+            <g id="Group-16" transform="translate(244.000000, 535.000000)">
+                <path d="M61,112 C91.927946,112 117,86.927946 117,56 C117,25.072054 91.927946,0 61,0 C30.072054,0 5,25.072054 5,56 C5,86.927946 30.072054,112 61,112 Z" id="Oval" stroke="#979797" stroke-dasharray="1,1,4"></path>
+                <circle id="Oval-5" stroke="#979797" fill="#D8D8D8" cx="61" cy="56" r="6"></circle>
+                <circle id="Oval-5-Copy" stroke="#979797" fill="#D8D8D8" cx="269" cy="56" r="6"></circle>
+                <circle id="Oval-5-Copy-2" stroke="#979797" fill="#D8D8D8" cx="480" cy="56" r="6"></circle>
+                <circle id="Oval-5-Copy-3" stroke="#979797" fill="#D8D8D8" cx="686" cy="56" r="6"></circle>
+                <circle id="Oval-5-Copy-4" stroke="#979797" fill="#D8D8D8" cx="894" cy="56" r="6"></circle>
+                <path id="Line" d="M213,56.25 L204,51.75 L204,60.75 L213,56.25 Z M60.5,56.75 L204.5,56.75 L205,56.75 L205,55.75 L204.5,55.75 L60.5,55.75 L60,55.75 L60,56.75 L60.5,56.75 Z" fill="#5E5E5E" fill-rule="nonzero"></path>
+                <path id="Line-Copy" d="M422,56.25 L413,51.75 L413,60.75 L422,56.25 Z M269.5,56.75 L413.5,56.75 L414,56.75 L414,55.75 L413.5,55.75 L269.5,55.75 L269,55.75 L269,56.75 L269.5,56.75 Z" fill="#5E5E5E" fill-rule="nonzero"></path>
+                <path id="Line-Copy-2" d="M631,56.25 L622,51.75 L622,60.75 L631,56.25 Z M478.5,56.75 L622.5,56.75 L623,56.75 L623,55.75 L622.5,55.75 L478.5,55.75 L478,55.75 L478,56.75 L478.5,56.75 Z" fill="#5E5E5E" fill-rule="nonzero"></path>
+                <path id="Line-Copy-3" d="M838,56.25 L829,51.75 L829,60.75 L838,56.25 Z M685.5,56.75 L829.5,56.75 L830,56.75 L830,55.75 L829.5,55.75 L685.5,55.75 L685,55.75 L685,56.75 L685.5,56.75 Z" fill="#5E5E5E" fill-rule="nonzero"></path>
+                <path d="M269,112 C299.927946,112 325,86.927946 325,56 C325,25.072054 299.927946,0 269,0 C238.072054,0 213,25.072054 213,56 C213,86.927946 238.072054,112 269,112 Z" id="Oval-Copy" stroke="#979797" stroke-dasharray="1,1,4"></path>
+                <path d="M478,112 C508.927946,112 534,86.927946 534,56 C534,25.072054 508.927946,0 478,0 C447.072054,0 422,25.072054 422,56 C422,86.927946 447.072054,112 478,112 Z" id="Oval-Copy-2" stroke="#979797" stroke-dasharray="1,1,4"></path>
+                <path d="M686,112 C716.927946,112 742,86.927946 742,56 C742,25.072054 716.927946,0 686,0 C655.072054,0 630,25.072054 630,56 C630,86.927946 655.072054,112 686,112 Z" id="Oval-Copy-3" stroke="#979797" stroke-dasharray="1,1,4"></path>
+                <path d="M894,112 C924.927946,112 950,86.927946 950,56 C950,25.072054 924.927946,0 894,0 C863.072054,0 838,25.072054 838,56 C838,86.927946 863.072054,112 894,112 Z" id="Oval-Copy-4" stroke="#979797" stroke-dasharray="1,1,4"></path>
+                <text id="Identification" font-family="ProximaNova-Regular, Proxima Nova" font-size="20" font-weight="normal" fill="#000000">
+                    <tspan x="6.8" y="143">Identification</tspan>
+                </text>
+                <text id="and-concepts" font-family="ProximaNova-Regular, Proxima Nova" font-size="16" font-weight="normal" fill="#9B9B9B">
+                    <tspan x="14.14" y="163">and concepts</tspan>
+                </text>
+                <text id="and-prototype-testin" font-family="ProximaNova-Regular, Proxima Nova" font-size="16" font-weight="normal" fill="#9B9B9B">
+                    <tspan x="194.316" y="163">and prototype testing</tspan>
+                </text>
+                <text id="and-hand-off" font-family="ProximaNova-Regular, Proxima Nova" font-size="16" font-weight="normal" fill="#9B9B9B">
+                    <tspan x="434.068" y="163">and hand-off</tspan>
+                </text>
+                <text id="and-design-QA" font-family="ProximaNova-Regular, Proxima Nova" font-size="16" font-weight="normal" fill="#9B9B9B">
+                    <tspan x="634.436" y="163">and design QA</tspan>
+                </text>
+                <text id="and-improve" font-family="ProximaNova-Regular, Proxima Nova" font-size="16" font-weight="normal" fill="#9B9B9B">
+                    <tspan x="854.216" y="163">and improve</tspan>
+                </text>
+                <text id="Requirements" font-family="ProximaNova-Regular, Proxima Nova" font-size="20" font-weight="normal" fill="#000000">
+                    <tspan x="212" y="143">Requirements</tspan>
+                </text>
+                <text id="Design" font-family="ProximaNova-Regular, Proxima Nova" font-size="20" font-weight="normal" fill="#000000">
+                    <tspan x="447" y="143">Design</tspan>
+                </text>
+                <text id="Development" font-family="ProximaNova-Regular, Proxima Nova" font-size="20" font-weight="normal" fill="#000000">
+                    <tspan x="633" y="143">Development</tspan>
+                </text>
+                <text id="Measure" font-family="ProximaNova-Regular, Proxima Nova" font-size="20" font-weight="normal" fill="#000000">
+                    <tspan x="862" y="143">Measure</tspan>
+                </text>
+                <path id="Line-3" d="M61,178.079987 L56.5,187.079987 L65.5,187.079987 L61,178.079987 Z M894.5,175 L894.5,233.579987 L895,233.079987 L61,233.079987 L61.5,233.579987 L61.5,186.579987 L61.5,186.079987 L60.5,186.079987 L60.5,186.579987 L60.5,233.579987 L60.5,234.079987 L61,234.079987 L895,234.079987 L895.5,234.079987 L895.5,233.579987 L895.5,175 L895.5,174.5 L894.5,174.5 L894.5,175 Z" fill="#5E5E5E" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
