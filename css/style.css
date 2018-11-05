@@ -289,3 +289,19 @@ blockquote {
 .home-tile {
 	margin-bottom: 30px;
 }
+
+.home-info-box {
+	margin-bottom: 72px;
+}
+
+.home-info-box div div small {
+	font-size: 16px;
+	color: #4A4A4A;
+}
+
+.home-info-box div div h3 {
+	font-size: 24px;
+	color: #4A4A4A;
+	margin: 8px 0px;
+	line-height: 29px
+}
