@@ -303,6 +303,10 @@ blockquote {
 }
 
 /* Project Tiles */
-#projects div h3 {
+.home-tile h3 {
 	min-height: 100px;
+}
+
+.home-tile a{
+	text-decoration: none;
 }
