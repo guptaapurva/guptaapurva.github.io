@@ -21,32 +21,28 @@
     <![endif]-->
 
     <!-- Place anything custom after this. -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+	ga('create', 'UA-57952563-1', 'auto');
+	ga('send', 'pageview');
+	</script>
 
-	<style type="text/css">
-    .panel {
-      height: 100%;
-      width: 100%;
-      margin-bottom: 0px;
-    }
-    body, html {
-      height: 100%;
-    }
-    .vcenter {
-        display: inline-block;
-        vertical-align: middle;
-        float: none;
-    }
-    .bs-footer{
-      margin-top: 0px;
-    }
+	<style>
+		.jumbotron::before {
+			filter: url('#blur');
+			filter: blur(5px);
+		}
 	</style>
 
 </head>
 
 <body>
 
-  <!-- Navigaton -->
+	<!-- Navigaton -->
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<div>
 		  <!-- Brand and toggle get grouped for better mobile display -->
@@ -72,138 +68,134 @@
 	  </div>
 	</nav>
 
-	<section class="container" style="padding-top: 100px">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <div class="media">
-          <div class="media-left">
-            <a href="#">
-              <img class="media-object img-circle" src="../img/cover/cover-00.png" alt="..." >
-            </a>
+	<!-- Bootstrap Image Gallery lightbox -->
+	<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+		<!-- The container for the modal slides -->
+		<div class="slides"></div>
+		<!-- Controls for the borderless lightbox -->
+		<h3 class="title"></h3>
+		<a class="prev">‹</a>
+		<a class="next">›</a>
+		<a class="close">×</a>
+		<a class="play-pause"></a>
+		<ol class="indicator"></ol>
+		<!-- The modal dialog, which will be used to wrap the lightbox content -->
+		<div class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" aria-hidden="true">&times;</button>
+						<h4 class="modal-title"></h4>
+					</div>
+					<div class="modal-body next"></div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default pull-left prev">
+							<i class="glyphicon glyphicon-chevron-left"></i>
+							Previous
+						</button>
+						<button type="button" class="btn btn-primary next">
+							Next
+							<i class="glyphicon glyphicon-chevron-right"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <div class="project_content" id="links" style="padding-top: 100px">
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-sm-12 col-md-8 col-md-offset-2">
+
+          <!-- Cover -->
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object img-circle" src="../img/cover/cover-00.png" alt="..." >
+              </a>
+            </div>
+            <div class="media-body" id="media-body">
+              <h4 class="media-heading">SavvyMoney Inc.</h4>
+              UX Design
+            </div>
           </div>
-          <div class="media-body" id="media-body">
-            <h4 class="media-heading">SavvyMoney Inc.</h4>
-            UX Design
-          </div>
+
+          <br>
+
+          <!-- Main Content -->
+          <p>SavvyMoney Inc. is a B-B-C fin-tech startup. It offers a comprehensive credit score solution (score, report and monitoring) to financial institutions (FI's) by integrating within their online and mobile banking platforms. It also offers them (FI's) a business intelligence tool, SavvyMoney Analytics, to analyze the credit portfolio of their member-base and explore lending opportunities.</p> <br>
+          <a href="../img/projects/savvymoney2/bmodel.svg" title="Study 1" data-gallery> <img src="../img/projects/savvymoney2/bmodel.svg" width="100%" alt=""> </a><br><br>
+          <h4 style="color: black">my role: UX designer -> evangelist -> analyst</h4>
+          <p>When I joined SavvyMoney in 2016, I was the only designer on the team. I started as a UX designer focusing mainly on enhancing the users’ experience with the credit score application. Since then, not only have I grown my role, but also contributed towards creating a strong design culture in the company. I work within the product team, lead a team of designers and UI developers and work closely with the partnerships team to plan and implement enhancements and/or new feature roll-outs. I also wear the business analyst hat and analyze the impact of design interventions and evaluate growth of both product and partners.</p> <br>
+          <h4 style="color: black">design-led product development process</h4>
+          <p>I take pride in working closely with the product team and institutionalizing a product development process which is pro-design, end-to-end. The human-centered design philosophy forms the foundation of the process that instills the idea of technology and design working together for successful releases. </p><br>
+          <a href="../img/projects/savvymoney2/process.svg" title="Study 1" data-gallery> <img src="../img/projects/savvymoney2/process.svg" width="100%" alt=""> </a><br><br>
+          <h4 style="color: black">product evolution</h4>
+          <p>When I started, the credit application was limited to the credit score, factors that affect the score, credit monitoring, a page dedicated to the FI's offers and a blog which was largely un-responsive. I have worked on the complete overhaul of the application along with designing additional features.</p> <br>
+          <a href="../img/projects/savvymoney2/timeline.png" title="Study 1" data-gallery> <img src="../img/projects/savvymoney2/timeline.png" width="100%" alt=""> </a><br><br>
+          <p>A snapshot of the major product releases are described below. Each of these projects followed the product development process while improving upon the process or adding new tools for efficiency.</p><br>
+          <h4 style="color: black">credit score, delivered straight to online banking.</h4><br>
+          <a href="../img/projects/savvymoney2/widget.svg" title="Study 1" data-gallery> <img src="../img/projects/savvymoney2/widget.svg" width="100%" alt=""> </a><br><br>
+          <ul>
+            <li>Score widget integrated within online and mobile banking using iframe solutions and apis.
+            <li>New design resulted in 30 fold increase in user engagement.
+            <li>Responsive components provide flexibilty over widget dimensions.
+            <li>Live on over 125+ partners across 10+ online banking platforms.
+          </ul><br>
+          <blockquote>“I think I'm excited about it (widget). I think that's a great thing for people to monitor their own credit this way.”  - User</blockquote><br>
+          <h4 style="color: black">monitor credit information in one place with full credit report.</h4><br>
+          <a href="../img/projects/savvymoney2/report.svg" title="Study 1" data-gallery> <img src="../img/projects/savvymoney2/report.svg" width="100%" alt=""> </a><br><br>
+          <ul>
+            <li>Rollout increased product value and thus, partner buy-in.
+            <li>Used by over 250,000 users to monitor credit and information on their credit files.
+          </ul><br>
+          <h4 style="color: black">personalised offers and savings calculators</h4><br>
+          <a href="../img/projects/savvymoney2/offer.svg" title="Study 1" data-gallery> <img src="../img/projects/savvymoney2/offer.svg" width="100%" alt=""> </a><br><br>
+          <ul>
+            <li>Standalone calculators and offers pages per product type - auto loans, credit cards, personal loans, student loans and HELOC’s.
+            <li>Makes it easy to compare offers with existing debt making savings (on refinance/ debt consolidation) transparent.
+          </ul><br>
+          <h4 style="color: black">Making way for design system and accessibility</h4>
+          <p>While working on design projects, we occassionally ran in to the issue that same components were not consistent in the design source files. Similar problem co-existed within the dev team too where eash new UI developer would re-code the components. This resulted in the designs not only looking different from production but similar components looked different on different pages.</p>
+          <p>As a solution to the problem, we introduced a component library which helped in mainiting a level on consistency within the design team but dev inconsistency was still a problem. As we moved our web technology from angular to react, this was a opportunity to set up the design system that can be used  by everyone as a single source of truth. Hence, the birth of,</p><br>
+          <p><b>OCTANE - Design System by SavvyMoney</b></p>
+          <p>The success of the system lies in the fact that early on dev team recognized the value of the system as they added new UI developers to the projects and were now seeing reduced development time. All this while developing the components for the design system.</p><br>
+          <a href="../img/projects/savvymoney2/design_system.jpg" title="Study 1" data-gallery> <img src="../img/projects/savvymoney2/design_system.jpg" width="100%" alt=""> </a><br><br>
+          <p><b>ACCESSIBILITY</b></p>
+          <p>Since SavvyMoney works directly with financial institutions, it has become mandatory for us to be ADA compliant by 2020. The design system helped us in taking the first steps towards that. The component being built in to system follow the WCAG 2.0 guidelines with spcific focus on contrast, target sizes and spacing between components. Next steps are to define focus states for all pages and text for keyboard accessibility.</p>
         </div>
-
-        <br>
-
-        <p>I joined SavvyMoney Inc. as the only UX Designer on the team in 2016. Since then, I have been leading the UX efforts at the company. As an integral part of the Product team, I work closely with development and partnerships teams, to plan and implement enhancements and new feature roll-outs. I also wear the business analyst hat and analyze the impact of design interventions and evaluate growth of both product and partners.</p><br>
-      </div>
-    </div>
-  </section>
-
-  <div style="background-color: #f2f2f2;">
-  <section class="container">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <h3>Design-led product development</h3>
-        <center><img src="../img/projects/savvymoney/process.svg" width="100%"/></center>
-        <p>I joined SavvyMoney Inc. as the only UX Designer on the team in 2016. Since then, I have been leading the UX efforts at the company. As an integral part of the Product team, I work closely with development.</p>
-      </div>
-    </div>
-  </section>
-</div>
-
-  <span id="turqoise"></span>
-
-  <section class="panel turqoise" id="panel-image" style="display: table; background-color: #4FC3F7">
-    <div style="display: table-cell; vertical-align: middle">
-      <div class="container" >
-        <div class="row" >
-            <div class="col-md-4 col-md-offset-1 vcenter">
-                <center><img src="../img/projects/savvymoney/screen 1.svg" width="100%"/></center>
-            </div><!--
-            --><div class="col-md-6 vcenter" style="color: #ffffff">
-                  <h3 style="font-size: 36px; color: #ffffff; margin-top: 0px;">  Credit score, delivered straight to online banking. </h3> <br>
-                  <ul style="font-size: 20px">
-                      <li> Score widget integrated within online banking using iframe solutions and apis.
-                      <li> New design resulted in 30 fold increase in user engagement.
-                      <li> Responsive components provide flexibility over widget dimensions.
-                      <li> Live on over 125+ partners across 10+ online banking platforms.
-                  </ul> <br>
-                  <span style="font-size: 24px">“I think I'm excited about it (widget). I think that's a great thing for people to monitor their own credit this way.”  - User</span>
-            </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="panel turqoise" id="panel-image" style="display: table; background-color: #1E88E5">
-    <div style="display: table-cell; vertical-align: middle">
-      <div class="container" >
-        <div class="row" >
-            <div class="col-md-4 col-md-offset-1 vcenter">
-                <center><img src="../img/projects/savvymoney/screen 2.svg" width="100%"/></center>
-            </div><!--
-            --><div class="col-md-6 vcenter" style="color: #ffffff">
-                  <h3 style="font-size: 36px; color: #ffffff; margin-top: 0px;">Credit report, monitor credit information in one place.</h3> <br>
-                  <ul style="font-size: 20px">
-                    <li>Rollout increased product value and thus, partner buy-in.
-                    <li>Used by over 250,000 users to monitor credit and information on their credit files.
-                  </ul>
-            </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="panel turqoise" id="panel-image" style="display: table; background-color: #9575CD">
-    <div style="display: table-cell; vertical-align: middle">
-      <div class="container" >
-        <div class="row" >
-            <div class="col-md-4 col-md-offset-1 vcenter">
-                <center><img src="../img/projects/savvymoney/screen 3.svg" width="100%"/></center>
-            </div><!--
-            --><div class="col-md-6 vcenter" style="color: #ffffff">
-                  <h3 style="font-size: 36px; color: #ffffff; margin-top: 0px;">Personalised offers and savings calculators</h3> <br>
-                  <ul style="font-size: 20px">
-                    <li> Standalone calculators and offers pages per product type - auto loans, credit cards, personal loans, student loans and HELOC’s.
-                    <li>Makes it easy to compare offers with existing debt making savings (on refinance/ debt consolidation) transparent.
-                  </ul>
-            </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  		</div>
+  	</div>
+  </div>
 
   <!-- Footer
-   ================================================== -->
-   <footer class="bs-footer" role="contentinfo">
-     <div class="container">
-       <p class="pull-left col-xs-6" style="padding-top: 7px; padding-bottom: 7px">Apurva Gupta</p>
-       <p class="pull-right col-xs-6" style="text-align: right; text-align: -webkit-right;">
-         <a href="mailto:gupta.apurva.92@gmail.com" style="text-decoration: none;"> Email </a> /
-         <a href="https://www.linkedin.com/in/gapurva"> LinkedIn </a>
-       </p>
-     </div>
-   </footer>
+  ================================================== -->
+
+  <footer class="bs-footer" role="contentinfo">
+  	<div class="container">
+  		<p class="pull-left col-xs-6" style="padding-top: 7px; padding-bottom: 7px">Apurva Gupta</p>
+  		<p class="pull-right col-xs-6" style="text-align: right; text-align: -webkit-right;">
+  			<a href="mailto:gupta.apurva.92@gmail.com" style="text-decoration: none;"> Email </a> /
+  			<a href="https://www.linkedin.com/in/gapurva"> LinkedIn </a>
+  		</p>
+  	</div>
+  </footer>
 
 
-
-  <!-- JS and analytics only. -->
-  <!-- Bootstrap core JavaScript
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
 	================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
-  <script type="text/javascript" src="../docs/jquery-1.8.0.js"></script>
+    <script type="text/javascript" src="../docs/jquery-1.8.0.js"></script>
+	<script type="text/javascript" src="../docs/bootstrap.js"></script>
+	<script type="text/javascript" src="../docs/application.js"></script>
+	<script type="text/javascript" src="../docs/jquery.validate.js"></script>
+	<script type="text/javascript" src="../docs/jquery.validate.unobtrusive.js"></script>
+	<script type="text/javascript" src="../docs/jquery.unobtrusive-ajax.js"></script>
+	<script type="text/javascript" src="../docs/metro-bootstrap/metro-docs.js"></script>
 
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-
-  <!-- <script>
-    // init controller
-    var controller = new ScrollMagic.Controller();
-
-    $(function () { // wait for document ready
-      // build scene
-      var scene = new ScrollMagic.Scene({triggerElement: "#turqoise", duration: 400})
-              .setPin("#panel-image")
-              .addIndicators({name: "1 (duration: 400)"}) // add indicators (requires plugin)
-              .addTo(controller);
-    });
-  </script> -->
-
+	<script type="text/javascript" src="../docs/jquery.blueimp-gallery.min.js"></script>
 
   </body>
 </html>

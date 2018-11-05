@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="798px" height="199px" viewBox="0 0 798 199" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 16</title>
+    <desc>Created with Sketch.</desc>
+    <g id="new-designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-5" transform="translate(-333.000000, -1128.000000)">
+            <g id="Group-16" transform="translate(330.000000, 1129.000000)">
+                <path d="M51.3684211,94.3157895 C77.4130071,94.3157895 98.5263158,73.2024808 98.5263158,47.1578947 C98.5263158,21.1133086 77.4130071,0 51.3684211,0 C25.323835,0 4.21052632,21.1133086 4.21052632,47.1578947 C4.21052632,73.2024808 25.323835,94.3157895 51.3684211,94.3157895 Z" id="Oval" stroke="#000000" stroke-width="0.842105263" stroke-dasharray="0.8421052631578947,0.8421052631578947,3.368421052631579"></path>
+                <circle id="Oval-5" stroke="#979797" stroke-width="0.842105263" fill="#D8D8D8" cx="51.3684211" cy="47.1578947" r="5.05263158"></circle>
+                <circle id="Oval-5-Copy" stroke="#979797" stroke-width="0.842105263" fill="#D8D8D8" cx="226.526316" cy="47.1578947" r="5.05263158"></circle>
+                <circle id="Oval-5-Copy-2" stroke="#979797" stroke-width="0.842105263" fill="#D8D8D8" cx="404.210526" cy="47.1578947" r="5.05263158"></circle>
+                <circle id="Oval-5-Copy-3" stroke="#979797" stroke-width="0.842105263" fill="#D8D8D8" cx="577.684211" cy="47.1578947" r="5.05263158"></circle>
+                <circle id="Oval-5-Copy-4" stroke="#979797" stroke-width="0.842105263" fill="#D8D8D8" cx="752.842105" cy="47.1578947" r="5.05263158"></circle>
+                <path id="Line" d="M171.391813,47.8289474 L50.9473684,47.8289474 L50.5263158,47.8289474 L50.5263158,46.9868421 L50.9473684,46.9868421 L171.391813,46.9868421 L171.391813,43.3026316 L179.391813,47.4078947 L171.391813,51.5131579 L171.391813,47.8289474 Z" fill="#5E5E5E" fill-rule="nonzero"></path>
+                <path id="Line-Copy" d="M347.391813,47.8289474 L226.947368,47.8289474 L226.526316,47.8289474 L226.526316,46.9868421 L226.947368,46.9868421 L347.391813,46.9868421 L347.391813,43.3026316 L355.391813,47.4078947 L347.391813,51.5131579 L347.391813,47.8289474 Z" fill="#5E5E5E" fill-rule="nonzero"></path>
+                <path id="Line-Copy-2" d="M523.391813,47.8289474 L402.947368,47.8289474 L402.526316,47.8289474 L402.526316,46.9868421 L402.947368,46.9868421 L523.391813,46.9868421 L523.391813,43.3026316 L531.391813,47.4078947 L523.391813,51.5131579 L523.391813,47.8289474 Z" fill="#5E5E5E" fill-rule="nonzero"></path>
+                <path id="Line-Copy-3" d="M697.707602,47.8289474 L577.263158,47.8289474 L576.842105,47.8289474 L576.842105,46.9868421 L577.263158,46.9868421 L697.707602,46.9868421 L697.707602,43.3026316 L705.707602,47.4078947 L697.707602,51.5131579 L697.707602,47.8289474 Z" fill="#5E5E5E" fill-rule="nonzero"></path>
+                <path d="M226.526316,94.3157895 C252.570902,94.3157895 273.684211,73.2024808 273.684211,47.1578947 C273.684211,21.1133086 252.570902,0 226.526316,0 C200.48173,0 179.368421,21.1133086 179.368421,47.1578947 C179.368421,73.2024808 200.48173,94.3157895 226.526316,94.3157895 Z" id="Oval-Copy" stroke="#000000" stroke-width="0.842105263" stroke-dasharray="0.8421052631578947,0.8421052631578947,3.368421052631579"></path>
+                <path d="M402.526316,94.3157895 C428.570902,94.3157895 449.684211,73.2024808 449.684211,47.1578947 C449.684211,21.1133086 428.570902,0 402.526316,0 C376.48173,0 355.368421,21.1133086 355.368421,47.1578947 C355.368421,73.2024808 376.48173,94.3157895 402.526316,94.3157895 Z" id="Oval-Copy-2" stroke="#000000" stroke-width="0.842105263" stroke-dasharray="0.8421052631578947,0.8421052631578947,3.368421052631579"></path>
+                <path d="M577.684211,94.3157895 C603.728797,94.3157895 624.842105,73.2024808 624.842105,47.1578947 C624.842105,21.1133086 603.728797,0 577.684211,0 C551.639624,0 530.526316,21.1133086 530.526316,47.1578947 C530.526316,73.2024808 551.639624,94.3157895 577.684211,94.3157895 Z" id="Oval-Copy-3" stroke="#000000" stroke-width="0.842105263" stroke-dasharray="0.8421052631578947,0.8421052631578947,3.368421052631579"></path>
+                <path d="M752.842105,94.3157895 C778.886691,94.3157895 800,73.2024808 800,47.1578947 C800,21.1133086 778.886691,0 752.842105,0 C726.797519,0 705.684211,21.1133086 705.684211,47.1578947 C705.684211,73.2024808 726.797519,94.3157895 752.842105,94.3157895 Z" id="Oval-Copy-4" stroke="#000000" stroke-width="0.842105263" stroke-dasharray="0.8421052631578947,0.8421052631578947,3.368421052631579"></path>
+                <text id="Identification" font-family="ProximaNova-Regular, Proxima Nova" font-size="16.8421053" font-weight="normal" fill="#000000">
+                    <tspan x="5.72631579" y="119.578947">Identification</tspan>
+                </text>
+                <text id="and-concepts" font-family="ProximaNova-Regular, Proxima Nova" font-size="13.4736842" font-weight="normal" fill="#9B9B9B">
+                    <tspan x="11.9073684" y="137.789474">and concepts</tspan>
+                </text>
+                <text id="and-prototype-testin" font-family="ProximaNova-Regular, Proxima Nova" font-size="13.4736842" font-weight="normal" fill="#9B9B9B">
+                    <tspan x="163.634526" y="137.789474">and prototype testing</tspan>
+                </text>
+                <text id="and-hand-off" font-family="ProximaNova-Regular, Proxima Nova" font-size="13.4736842" font-weight="normal" fill="#9B9B9B">
+                    <tspan x="365.530947" y="137.789474">and hand-off</tspan>
+                </text>
+                <text id="and-design-QA" font-family="ProximaNova-Regular, Proxima Nova" font-size="13.4736842" font-weight="normal" fill="#9B9B9B">
+                    <tspan x="534.261895" y="137.789474">and design QA</tspan>
+                </text>
+                <text id="and-improve" font-family="ProximaNova-Regular, Proxima Nova" font-size="13.4736842" font-weight="normal" fill="#9B9B9B">
+                    <tspan x="719.339789" y="137.789474">and improve</tspan>
+                </text>
+                <text id="Requirements" font-family="ProximaNova-Regular, Proxima Nova" font-size="16.8421053" font-weight="normal" fill="#000000">
+                    <tspan x="178.526316" y="119.578947">Requirements</tspan>
+                </text>
+                <text id="Design" font-family="ProximaNova-Regular, Proxima Nova" font-size="16.8421053" font-weight="normal" fill="#000000">
+                    <tspan x="376.421053" y="119.578947">Design</tspan>
+                </text>
+                <text id="Development" font-family="ProximaNova-Regular, Proxima Nova" font-size="16.8421053" font-weight="normal" fill="#000000">
+                    <tspan x="533.052632" y="119.578947">Development</tspan>
+                </text>
+                <text id="Measure" font-family="ProximaNova-Regular, Proxima Nova" font-size="16.8421053" font-weight="normal" fill="#000000">
+                    <tspan x="725.894737" y="119.578947">Measure</tspan>
+                </text>
+                <path id="Line-3" d="M404.631579,157.938702 L404.631579,196.277883 L753.263158,196.277883 L753.263158,147.368421 L753.263158,146.947368 L754.105263,146.947368 L754.105263,147.368421 L754.105263,196.698936 L754.105263,197.119989 L753.684211,197.119989 L404.210526,197.119989 L403.789474,197.119989 L403.789474,196.698936 L403.789474,157.938702 L400.105263,157.938702 L404.210526,149.938702 L408.315789,157.938702 L404.631579,157.938702 Z" fill="#5E5E5E" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
