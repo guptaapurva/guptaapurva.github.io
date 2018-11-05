@@ -237,49 +237,6 @@ blockquote {
 }
 
 
-
-@media all and (min-width: 900px) {
-	.two-column-flow  {
-		-webkit-column-count: 2;
-		-webkit-column-gap: 3%; /* Saf3, Chrome*/
-		-moz-column-count: 2;
-		-moz-column-gap: 3%; /* FF3.5+ */
-		column-count: 2;
-		column-gap: 3%; /* Opera 11+*/
-	}
-
-	.three-column-flow  {
-		-webkit-column-count: 3;
-		-webkit-column-gap: 1%; /* Saf3, Chrome*/
-		-moz-column-count: 3;
-		-moz-column-gap: 1%; /* FF3.5+ */
-		column-count: 3;
-		column-gap: 1%; /* Opera 11+*/
-	}
-}
-
-.current{
-	background-color: transparent;
-	border: none;
-	border-top: 1px solid #ddd;
-	cursor: default;
-	color: #fff;
-}
-
-.current a{
-	border: none;
-	border-top: 1px solid #ddd;
-	cursor: default;
-	color: #fff;
-}
-
-/* Special */
-.mavenly-screens {
-	font-size: 12px;
-	color: #000000;
-}
-
-
 /* SavvyMoney Tiles */
 .savvymoneytiles{
 	border: solid 1px #E5E5E5;
@@ -303,10 +260,32 @@ blockquote {
 }
 
 /* Project Tiles */
-.home-tile h3 {
+.tile-border{
+	box-shadow: 1px 1px 4px #CACACA50;
+}
+
+.tile-content {
 	min-height: 100px;
+	padding: 12px 32px;
+}
+
+.home-tile h2 {
+	font-size: 14px;
+	color: #4A4A4A;
+	margin: 0px;
+	padding-bottom: 8px;
+}
+
+.home-tile h3 {
+	margin: 0px;
+	font-size: 18px;
+	line-height: 22px;
 }
 
 .home-tile a{
 	text-decoration: none;
+}
+
+.home-tile {
+	margin-bottom: 30px;
 }
