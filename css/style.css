@@ -201,39 +201,13 @@ blockquote {
  *
  * Separated section of content at the bottom of all pages, save the homepage.
  */
-
 .bs-footer {
-  padding-top: 0px;
-  margin-top: 2%;
-  color: #777;
   border-top: 1px solid #e5e5e5;
 }
 
-.bs-footer .container {
-	padding: 15px 0px;
-	margin: 0px;
-	width: 100%;
-}
-
-.footer-links {
-  margin: 10px 0;
-  padding-left: 0;
-}
-.footer-links li {
-  display: inline;
-  padding: 0 2px;
-}
-.footer-links li:first-child {
-  padding-left: 0;
-}
-
-@media (min-width: 768px) {
-  .bs-footer {
-    text-align: left;
-  }
-  .bs-footer p {
-    margin-bottom: 0;
-  }
+.bs-footer .container .row p{
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 
@@ -261,12 +235,13 @@ blockquote {
 
 /* Project Tiles */
 .tile-border{
-	box-shadow: 1px 1px 4px #CACACA50;
+	box-shadow: 1px 1px 4px rgba(202, 202, 202, 0.5);
+	background-color: #ffffff;
 }
 
 .tile-content {
 	min-height: 100px;
-	padding: 12px 32px;
+	padding: 15px 30px;
 }
 
 .home-tile h2 {
@@ -279,7 +254,7 @@ blockquote {
 .home-tile h3 {
 	margin: 0px;
 	font-size: 18px;
-	line-height: 22px;
+	line-height: 27px;
 }
 
 .home-tile a{
@@ -287,11 +262,12 @@ blockquote {
 }
 
 .home-tile {
-	margin-bottom: 30px;
+	margin-bottom: 60px;
 }
 
 .home-info-box {
 	margin-bottom: 72px;
+	margin-top: 72px;
 }
 
 .home-info-box div div small {
@@ -303,5 +279,12 @@ blockquote {
 	font-size: 24px;
 	color: #4A4A4A;
 	margin: 8px 0px;
-	line-height: 29px
+	line-height: 32px
+}
+
+/* Navigation */
+.navbar{
+	background-color: white;
+	border-color: white;
+	margin-bottom: 0px;
 }
