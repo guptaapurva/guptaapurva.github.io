@@ -175,3 +175,188 @@
  	cursor: default;
  	color: #fff;
  }
+
+
+
+
+
+ /* Project Thumbnails home page */
+ #portfoliolist .portfolio .thumbnail {
+ 	border: None;
+ 	box-shadow: None;
+ 	background-color: #FFFFFF;
+ 	text-align: center;
+ 	/* box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2); */
+ 	font-weight: 500;
+ 	font-size: 16px;
+ 	margin-bottom: 30px;
+ }
+
+ #portfoliolist .portfolio .thumbnail h4{
+ 	line-height: 1.25;
+ 	color: #37474F; /* #0072BB; */
+ 	font-weight: 400;
+ 	font-size: 16px;
+ 	text-align: center;
+ }
+
+ #portfoliolist .portfolio .thumbnail:hover {
+ 	-moz-box-shadow: 5px 5px 5px #c5c5c5;
+ 	-webkit-box-shadow: 5px 5px 5px #c5c5c5;
+ 	box-shadow: 5px 5px 5px #c5c5c5;
+ }
+
+ .badge {
+ 	border-radius: 0px;
+ 	font-weight: normal;
+ 	color: #808080;
+ 	background-color: #F5F5F5;
+ }
+
+ #portfoliolist .portfolio .thumbnail a div{
+ 	margin: 5%;
+ }
+
+ #portfoliolist .portfolio .thumbnail a{
+ 	text-decoration: none;
+ }
+
+ #portfoliolist .portfolio .thumbnail:hover{
+ 	background-color: #fcfcfc;
+ }
+
+
+
+
+ /* Project Thumbnails home page */
+ .newportfoliolist{
+ 	width: 100%;
+ 	height: 300px
+ 	background-position: center center;
+ 	background-size: cover;
+ 	text-align: center;
+ 	display: table;
+ }
+
+ .newportfoliolist span{
+ 	display: none;
+ }
+
+ .newportfoliolist:hover span {
+ 		display: table-cell;
+ 		vertical-align: middle;
+ 		width: 100%;
+ 		height: 100%;
+ 		background-color: rgba(0, 0, 0, 0.65);
+ 		background-blend-mode: normal;
+ 		color: white;
+ }
+
+ .newportfoliolist span h3, .newportfoliolist span h3 small {
+ 	color: white
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Project Title */
+ blockquote {
+ 	border-left:5px solid #03a9f4;
+ 	background-color: #f5f5f5;
+ }
+
+ .project-jumbotron{
+ 	margin: 0px;
+ }
+
+ .project-home-title{
+ 	font-size: 16px;
+ 	color: #4A4A4A;
+ }
+
+ .project-title {
+ 	background-color:#eeeeee;
+ 	text-align: center;
+ 	margin-bottom: 50px;
+ }
+
+ .project-title h3 {
+ 	font-weight: 600;
+ }
+
+ /* Project Title */
+ #media-body {
+ 	font-size: 16px;
+ }
+
+ #media-body h4 {
+ 	font-size: 24px;
+ 	color: #3a3a3a;
+ }
+
+ .media-body, .media-left {
+ 	vertical-align: middle;
+ }
+
+ .media-object{
+ 	width: 48px;
+ 	height: 48px;
+ }
+
+ /* Project Text */
+
+
+ .project_content .sub-heading{
+ 	font-weight: 500;
+ }
+
+ .project_content h4{
+ 	font-weight: 300;
+ 	color: #03a9f4;
+ 	font-size: 20px;
+ }
+
+ .project_content b{
+ 	color: #212121;
+ }
+
+ .project_content .intro_para {
+ 	font-weight: 300;
+ 	font-size: 18px;
+ 	line-height: normal;
+ 	color: #333333;
+ }
+
+ .emphasis {
+ 	font-weight: bold;
+ 	/* color: #03a9f4; */
+ 	/* font-size: 120%; */
+ }
+
+ .image-quote{
+ 	text-align:center;
+ 	padding: 50px 10px;
+ 	color: #ffffff;
+ }
+
+ .image-quote small{
+ 	color: #03a9f4;
+ }
