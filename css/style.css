@@ -47,7 +47,17 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 	margin: 15px 0px;
 }
 
+.project-showcase{
+	display: flex;
+	align-items: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	flex-wrap: wrap;
+}
 
+.project-blue{
+	background-color: #F8FCFF;
+}
 
 
  /*
@@ -59,7 +69,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
   border-top: 1px solid #e5e5e5;
 }
 
-.bs-footer .container .row p{
+.bs-footer .container-fluid .row div{
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
