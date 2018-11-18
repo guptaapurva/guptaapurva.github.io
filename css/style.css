@@ -41,6 +41,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 
 .project_content h4 {
 	margin-top: 60px;
+	font-size: 24px;
 }
 
 .project_content p, .project_content a img{
@@ -59,6 +60,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 	background-color: #F8FCFF;
 }
 
+.carousel-inner>.item>a>img{
+	margin: 0px;
+}
 
  /*
  * Footer
