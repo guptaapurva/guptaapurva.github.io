@@ -4,6 +4,16 @@ body {
   font-size: 18px;
   line-height: 1.5;
   color: #000000;
+	background-color: #fafafa;
+	padding-top: 50px;
+}
+
+.navbar-default {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+}
+
+.navbar-default .navbar-nav>li>a,.navbar-default .navbar-brand{
+	color: #000;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
@@ -64,6 +74,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 	margin: 0px;
 }
 
+/* About */
+.about-date {
+	flex-grow: 1;
+}
+
+.about-post{
+	flex-grow: 4;
+}
+
  /*
  * Footer
  *
@@ -110,6 +129,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 .tile-content {
 	min-height: 100px;
 	padding: 15px 30px;
+}
+
+@media (min-width: 992px) {
+	.tile-content-savvymoney{
+		padding-left: 0px;
+	}
 }
 
 .home-tile h2 {
