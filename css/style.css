@@ -16,6 +16,21 @@ body {
 	color: #000;
 }
 
+.navbar-brand{
+	font-weight: 500;
+}
+
+.navbar-nav li a .glyphicon {
+	/* top: 2px; */
+	font-size: 14px;
+}
+
+.navbar{
+	background-color: white;
+	border: none;
+	margin-bottom: 0px;
+}
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 	color: #3a3a3a;
 }
@@ -178,11 +193,4 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 .newportfoliolist {
 	width: 100%;
 	font-weight: 300px;
-}
-
-/* Navigation */
-.navbar{
-	background-color: white;
-	border-color: white;
-	margin-bottom: 0px;
 }
