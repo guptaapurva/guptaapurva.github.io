@@ -114,14 +114,15 @@
 			<div class="row">
 
 				<div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-          <h2> Offer Pages <br> <small>Customer Driven Innovation for designing the knowlegde portal/platform</small> </h2>
+          <h2> Offer Pages </h2>
 
           <blockquote>“The simplicity of the site. Just enough information presented and very easy to navigate.”</blockquote>
 
           <img src="../img/projects/ebay/Slide13.JPG" width="100%" /> <br> <br>
 
-  				<h4>Design Statement</h4>
-          <p>Re-define the user experience of the offers/savings page for the product.</p>
+  				<h4>Background</h4>
+          <p>A lot of free credit score solutions in the market make money by cross-selling credit cards and loans from big financial institutions (FI's) or 3rd party vendors. This poses as risk to credit unions and small banks as they lose wallet share despite competitive rates. <br>
+SavvyMoney allows partner FI's to market their loan offers directly to their members inside the credit score application using its powerful recommendation engine. This not only adds to a marketing channel for partners but also allow their users to explore savings options and avail the cheaper rates that most credit unions are known for.</p>
   			</div>
 
         <div class="col-md-8 col-md-offset-2">
@@ -129,59 +130,99 @@
         </div>
 
         <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-          <h4>Problems with current page</h4>
+          <h4>Challenges with the existing solution</h4>
+            <p>Originally, there was a single page on the SavvyMoney application with all the offers listings. There was a small input selector for each product type to capture user details and a carousel to list other offer listings in the same category.  There were a few challenges with the existing page. </p>
+            
+            
           <ol>
-            <li>The navigation to other offers in the same product type was un-intuitive.</li>
-            <li>The value proposition and/or savings for the offer were less apparent and hidden under “Your Savings”.</li>
-            <li>Tracking: Since all the offers were in one page, current implementation of the page made it difficult to track what offers were being interacted with. </li>
+              <li>The <b>navigation </b> to other offers in the same product type was un-intuitive.</li>
+            <li>The <b>value proposition</b> and/or savings for the offer were less apparent and hidden under "Your Savings".</li>
+              <li>Overall it was difficult for the user to identify if the offer was <b>personalized</b> for them or if they were saving on their existing loans. </li>
+              <li><b>Tracking </b>: Since all the offers were listed in one page, current implementation of the page made it difficult to track what offers were being interacted with. </li>
           </ol>
 
           <h4>Motivations</h4>
+            <p>The primary motivation was to fix the user experience of the offers area. As the project unfolded, larger questions and concerns came into light which led to simplification of this complex product feature. The larger offer page undertaking was driven by:</p>
             <ol>
-              <li>Transparency: Expose what the user will pay and how much (if at all) would the user save with the recommended offer.</li>
-              <li>Comparison: Better visual way to compare all available offers.</li>
-              <li>Edge Cases: Data analysis revealed that around 40–50% of the user base will eventually see any offer. Others might either not be eligible for any offer or not have savings. The next gen designs should take care of as much of the edge cases as possible while leaving enough leeway for users to explore on their own.</li>
-              <li>Modular: De-constructing the architecture of the page which lets efficient implementation of all use cases while allowing the partners modify the marketing text and disclosure around the offers.</li>
+              <li><b>Ease of use</b>:Ease of use: Content is easy to navigate and understand. 
+                  There are many examples of research that people don't usually understand a lot of information presented to them when they apply for loans. So one of the focus areas was to make sure content was easy to understand and comprehend.</li>
+              <li><b>Transparency</b>:Expose what the user will pay and how much (if at all) would the user save with the recommended offer.</li>
+                <li><b>Ease of comparison</b>: Better visual way to compare all available offers than existing solution.</li>
+                <li><b>Consideration of edge cases</b>: Data analysis revealed that only around 40–50% of the user base will ever see any offer. Others might either not be eligible for any offer or not have savings. Thus, the next version of designs should take care of as much of the edge cases as possible while leaving enough leeway for users to explore on their own.</li>
+                <li><b>Modularity</b>: De-constructing the architecture of the page which lets efficient implementation of all use cases while allowing the partners modify the marketing text and disclosure around the offers.</li>
+                <li><b>Consistency</b>: While each product type has its own unique characteristics and nuances, it is imperative that they looked and felt as a part of a single underlying product.</li>
             </ol>
 
-          <h4>Timeline:</h4>
-        </div>
+            </div>
+          
+                
+            
+        
 
         <div class="col-md-8 col-md-offset-2">
   				<img src="../img/projects/ebay/Slide13.JPG" width="100%" /> <br> <br>
         </div>
 
         <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-          <p>The project kickstarted as a partner request to support “Student Loans” category. This was undertaken as an opportunity to redo the “Savings” area with a more consolidated page per offer type.
-          <h4>Outcome:</h4>
-          <p>This project is still ongoing with iterative changes and enhancement to features. As of Q3 2018, the improved functionality and UI was in production for Auto Loans, Student Loans, Personal Loans, Credit Cards, Home Loans and a generic offer page for all other offer types, both web and mobile.
-        </div>
+            <h4>Project scope/timeline</h4>
+            <p>This has been a larger undertaking which involved designing and building individual pages and functionality for different product types -</p>
+        <ul>
+            <li>Credit Cards</li>
+            <li>Auto Loans</li>
+            <li>Personal Loan</li>
+            <li>Student Loans</li>
+            <li>Home Loans / HELOC </li>
+            <li>Other products that partners offer</li>
+            </ul>
+            
+            <p>The project kickstarted as a partner request to support "Student Loans" category. This was undertaken as an opportunity to redo the "Savings" area with a more consolidated page per product type. Each of the product types were split into individual projects and underwent through their independent design and development cycles.</p>
 
+            <div class="col-md-8 col-md-offset-2">
+  				<img src="../img/projects/ebay/Slide13.JPG" width="100%" /> <br> <br>
+            </div>
+            
+        </div>
+                
+         <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+            <h4>My role</h4>
+            <p>I wore many hats for this project other than leading the UX efforts. I acted as a researcher and business analyst to identify feature requirements and worked directly with the partners and the development team to spec out, design and build the functionality.</p>
+            
+        </div>
+                
+                
+        
         <div class="col-md-8 col-md-offset-2">
   				<img src="../img/projects/ebay/Slide13.JPG" width="100%" /> <br> <br>
         </div>
 
         <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
           <h4>Process</h4>
-          <p>These pages were built one by one, such that certain nuances particular to the product type could be addressed properly. The process for building these page involved </p>
+          <p>These pages were built one by one, such that certain nuances particular to the product type could be addressed properly. The process for building these page involved:</p>
           <ol>
-            <li>Understanding the space of each product due to unfamiliarity to the finance sector</li>
+            <li>Understanding the space of each product -product characteristics, lending criteria and lending process. This was done by talking to partners, SME's, user surveys and looking at existing market research data.</li>
             <li>Looking at the user data to understand the use cases and edge case scenarios.</li>
-            <li>Building task-flows , UI architecture and low-high fidelity mockups</li>
+            <li>Building task-flows , UI architecture and interaction model and low-mid fidelity mockups.</li>
             <li>Testing with Partners for initial feedback to understand if the concept matched the industry standards.</li>
-            <li>Building semi- functional prototype and testing for usability, user-satisfaction, aesthetic appeal and ease of use.</li>
-            <li>Designing the UI and handing off the project to the developers with detailed requirements, model calculators and UI specification.</li>
+            <li>Building high fidelity,  semi- functional prototype and testing for usability, user-satisfaction, aesthetic appeal and ease of use with users.</li>
+            <li>Building model calculators for each product type for backend calculations.</li>
+              <li>Finalizing  the UI and handing off the project to the developers with detailed requirements and UI specification.</li>
           </ol>
-          <p>Since the pages were built one-by-one, this was truly an iterative project. Every next product page was informed by the performance of the previous pages and the improvements were implemented across all the pages.</p>
-
-          <h4>Mobile</h4>
+            
+            <p>Since the pages were built one-by-one, this was truly an iterative project. Every next product page was informed by the performance of the previous pages and the improvements were implemented across all the pages.</p>
+              
+          <h4>Outcome</h4>
+            <p>This project is still ongoing with iterative changes and enhancement to features. As of Q3 2018, the improved functionality and UI was in production for Auto Loans, Student Loans, Personal Loans, Credit Cards, Home Loans and a generic offer page for all other offer types, both in web and mobile.</p>
 
           <h4>Take Away</h4>
-          <p>Being an outsider to the fin-tech industry, this project helped me get the exposure to the world of financial institutions, the nuances of how, for example, credit cards or Auto refinance works, what factors are important for the lenders and what goes into the process of loan underwriting.</p>
-          <p>From the technical perspective, I learned the importance of consistency across different components and pages of the product, both in terms of design and code. </p>
+          <p>Being an outsider to the fin-tech industry, this project helped me get the exposure to the world of financial institutions, the nuances of how, for example, credit cards or Auto loans works, what factors are important for the lenders and what goes into the process of loan underwriting. Who new your ownership of your house can pay for you next house!! Or you could get more than the value of your car as an auto loan to pay for your debt since APR of any asset based loan is much lower than a personal loan! <br>
+              I also built  model calculators which could calculate credit card payments, monthly loan payments and pay-off loan terms. <br>
+              
+                I collaborated with 2 remote teams based out of the country across different time-zones and truly experienced round-the-clock work concept. It not only helped me improve my communication skills (some of the team that I worked with did not have English as their first language) but also appreciate the importance of designer-developer collaboration for a successful project. <br>
+              
+              My most important takeaway from the project was the <b> importance of consistency </b> - not only in UI, across different components, content, layout, etc. but also code - the api calls being returned, consistency in calculation results, number of decimal points, calculation in cents vs dollars, etc. This is when I took a step back and evaluated all pages for inconsistencies. This led way to setup a Design System at SavvyMoney - OCTANE.</p>
+          
           <blockquote>It is easy to design and build in a silo when you are focussed on task based output, losing the sight the bigger picture. It is then when you overstep consistency for getting the work done.</blockquote>
-          <p>This is when I took a step back, evaluated all pages for inconsistencies. This led way to setup Design System at SavvyMoney.</p>
-        </div>
+                </div>
 
 			</div>
 		</div>
