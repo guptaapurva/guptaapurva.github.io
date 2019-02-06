@@ -58,10 +58,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 .project_content {
 }
 
-.project_content h2 {
-	line-height: 1.5;
-	margin-top: 45px;
+.project_content h2{
+	line-height: 1.6;
+	margin-top: 10px;
 	margin-bottom: 30px;
+}
+
+.project_content ul, .project_content ol {
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 .project_content h4 {
@@ -70,7 +75,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 
 .project_content p, .project_content a img{
-	margin: 30px 0px;
+	margin: 0px 0px 30px 0px;
 }
 
 .project-showcase{
