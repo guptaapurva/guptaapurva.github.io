@@ -107,96 +107,80 @@
 		</div>
 	</div>
 
-  <img class="header-pic" src="../img/home/creditreport.jpg" width="100%">
+  <!-- <img class="header-pic" src="../img/home/creditreport.jpg" width="100%"> -->
 
   <div class="project_content" id="links">
 		<div class="container-fluid">
 			<div class="row">
-
 				<div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+
           <h2> SavvyMoney Analytics <small> B2B business intelligence tool for partners</small> </h2>
 
   				<h4>Background</h4>
-          <p>There are at least a couple thousand users accessing SavvyMoney application at any given time. With over 250 partner organizations, one can only imagine the bulk of the credit data that passes through the application everyday. The data, if represented properly, can give deeper insights to the partner institutions about their members, portfolio, competition and potential leads. With that as the guiding principle, SavvyMoney Analytics was launched in 2017, as a B2B business intelligence platform serving the following 2 purposes for our partners:</p>
-        <ol>
-            <li><b>User Tracking and ROI Analysis</b>: This provides partner an insight into the SavvyMoney membership, their behavior on the product and how SavvyMoney program has resulted in their financial growth.</li>
-            <li><b>Lead generation through running campaign</b>: This is the more interactive component of the product which lets the partner see the missed opportunities and run targeted campaigns on members based on their credit portfolio.</li>
-            
-          </ol>
-        <p>The product's beta version was released in Q1 2017 to a few selected partners and subsequently version 1 (v1) was circulated to all the existing partners. Since its launch, it has become a major factor for partners to join the SavvyMoney program. Enhancements to the product (version 2 (v2)) are underway to improve the underlying architecture, provide faster and better dashboards and overall, a better user experience.</p>
+            <p>There are at least a couple thousand users accessing SavvyMoney application at any given time. With over 250 partner organizations, one can only imagine the bulk of the credit data that passes through the application everyday. The data, if represented properly, can give deeper insights to the partner institutions about their members, portfolio, competition and potential leads. With that as the guiding principle, SavvyMoney Analytics was launched in 2017, as a B2B business intelligence platform serving the following 2 purposes for our partners:</p>
 
-  		
+            <ol>
+              <li><b>User Tracking and ROI Analysis</b>: This provides partner an insight into the SavvyMoney membership, their behavior on the product and how SavvyMoney program has resulted in their financial growth.</li>
+              <li><b>Lead generation through running campaign</b>: This is the more interactive component of the product which lets the partner see the missed opportunities and run targeted campaigns on members based on their credit portfolio.</li>
+            </ol>
 
-          <h4>My Role</h4>
-          <p>I worked as the UX Designer and analyst to define data visualizations and interactions and build  the UI of the platform using Tibco's Spotfire. I planned  the partner roll-out and partner communications. Also, I was involved in setting up and/or improving processes around partner on-boarding, user setup, email services and monitoring services in and around the analytics tool. </p>
+            <p>The product's beta version was released in Q1 2017 to a few selected partners and subsequently version 1 (v1) was circulated to all the existing partners. Since its launch, it has become a major factor for partners to join the SavvyMoney program. Enhancements to the product (version 2 (v2)) are underway to improve the underlying architecture, provide faster and better dashboards and overall, a better user experience.</p>
+            <img src="../img/sm_images/bi/bi 1.png" width="100%" /> <br> <br>
 
-          <h4>Process</h4>
-          <p><strong>Step 1: Understanding the monster</strong> <br>The project started with speaking to the subject matter experts (SME’s) and learning about the credit report and its 200+ attributes. I looked at sample reports by TransUnion and read through the xml response that the bureau sent at the credit report request. This exercise helped me lot to understand the structure and make-up of credit reports and identify more significant attributes from others.</p>
+            <h4>My Role</h4>
+              <p>I worked as the UX Designer and analyst to define data visualizations and interactions and build the UI of the platform using Tibco’s Spotfire. I planned the partner roll-out and partner communications. Also, I was involved in setting up and/or improving processes around partner on-boarding, user setup, email services and monitoring services in and around the analytics tool.</p>
+
+            <h4>Interface Design</h4>
+              <p>The UI for the analytics platform leveraged native features offered by Spotfire. The dashboard and reports are designed using simple charts, graphs and tables that best represent the varied datasets. The selection of the visualization techniques banks upon Ben Shneiderman’s mantra:</p>
+              <blockquote>Overview first, zoom and filter, then details on demand.</blockquote>
+              <p>The UI was designed and built directly within Spotfire using its UI features, skeleton and templates. There are 3 dashboards with multiple reports within each dashboard. The dashboards represent the three key value propositions for the partners:</p>
+              <ol>
+                <li><b>Analyze Credit:</b> The Analyze Credit dashboard allows financial institutions to analyze their users’ distribution across different score ranges and the financial institution’s wallet share. They can analyze credit score trends for 6 months and 12 months and other key lenders across various lending categories.</li>
+                <img src="../img/sm_images/bi/bi 2.png" width="100%" />
+                <img src="../img/sm_images/bi/bi 3.png" width="100%" />
+                <img src="../img/sm_images/bi/bi 4.png" width="100%" />
+                <li><b>Track Activity:</b> The Track Activity dashboard allows financial institutions to understand their users’ usage pattern with the SavvyMoney product: new sign-ups, login activity, click activity and offer impressions.</li>
+                <img src="../img/sm_images/bi/bi 5.png" width="100%" />
+                <li><b>Explore Campaigns:</b> The Explore Campaigns dashboard allows financial institutions to explore lending opportunities and analyze APRs by making use of multiple features across score range, accounts and product types.</li>
+                <img src="../img/sm_images/bi/bi 6.png" width="100%" />
+              </ol>
+              <p>After the beta release, I conducted 1:1 user testing sessions and analyzed partner feedback through surveys and/or word-of-mouth to understand if</p>
+              <ol>
+                <li>The reports were useful to the partners,</li>
+                <li>Language and filters were consistent with industry standard,</li>
+                <li>Other potential use-cases that these reports can be used.</li>
+                <li>General usability of the product.</li>
+              </ol>
+              <p>Based on the feedback, changes were made and processes were improved. Certain features from the results have been tabled for v2 of the product.</p>
+
+            <h4>Partner On-boarding Process</h4>
+              <p><b>Problem:</b> For the beta launch, a simple on-boarding process was setup wherein, specific partner organizations were demoed the product and a few people (users) on their team were given access. Due to the nature of information, the access needed to be vetted and approved. As the interest in the product started growing, there were more user requests, and soon the user set-up became inefficient with potential security risk.</p>
+              <b>Motivation:</b>
+              <ol>
+                <li>Increase Automation and reduce time spent on tasks</li>
+                <li>Reduce vulnerability to any security incident</li>
+                <li>Improve the User experience</li>
+              </ol>
+              <p><b>Process:</b> A task flow audit was conducted, from on-boarding a partner to Analytics, setting up new users to finally user using the product. Based on the audit, a new workflow was proposed and implemented.</p>
+              <img src="../img/sm_images/bi/bi 7.png" width="100%" />
+              <img src="../img/sm_images/bi/bi 8.png" width="100%" />
+              <p><b>Impact:</b> The impact of the new process was manifold and instantly visible.</p>
+              <ol>
+                <li>It reduced the user set-up time from the initial request to user getting access from 2–5 business days to almost real-time.
+                <li>The automation saved at least 10–15 hours of developer time per month.
+                <li>The new process decreased the security risk by bringing all information within internal databases.
+                <li>The chain of command made getting through the support tickets more efficiently.
+              </ol>
+
+            <h4>Next Steps</h4>
+              <p>The partners have been very excited about the product and have been asking more capabilities to be added. We are currently working on the V2 which will offer improved scalability, better reports and enhanced user experience.</p>
+
+            <h4> Key Learnings</h4>
+              <p>Through this project I wore multiple hats, that of a designer, an analyst, a systems architect, a QA engineer and a support specialist . This helped me learn many valuable technical skills related to integrations, api, workflows, email clients, database architectures, amazon aws environment, etc. and also develop soft skills to successfully collaborate with different teams spread across the company and across the globe!</p>
         </div>
-
-        <div class="col-md-8 col-md-offset-2">
-  				<img src="../img/projects/ebay/Slide13.JPG" width="100%" /> <br> <br>
-        </div>
-
-        <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-          <p><strong>Step 2: Competitive benchmarking of other credit report tools</strong> <br>Credit reports are one of those documents which are not easy to understood despite their impact on our financial lives. Thus, one of the most important requirements were to make different sections easy to understand such that not only their meaning is well understood, but users are able to “talk the talk” and connect with the financial jargon.</p>
-          <p>Being new to the industry, it was important to benchmark and ask the question — “What is out there?”, “How do others show the complex terms?”, “How to they allow for easy navigation?” and “How can ours be better?”. Thus, a bunch of products were benchmarked on the following criteria.</p>
-          <ul>
-            <li>Ease of understanding different attributes that the report has.</li>
-            <li>Level of abstraction of attributes. Since report are mostly used for “official” purposes, the terms used may be difficult to understand by a layman.</li>
-            <li>Ease of navigation across different sections of the report</li>
-            <li>Cross device and browser portability</li>
-            <li>Aesthetic appeal. </li>
-          </ul>
-
-          <p><strong>Step 3: Defining the IA, interactions and final UI</strong><br>Consumer credit reports, in its entirety, have 4 main sections:</p>
-          <ol>
-            <li>Personal information and Credit summary</li>
-            <li>Tradeline or account details</li>
-            <li>Inquiries </li>
-            <li>Public records</li>
-          </ol>
-        </div>
-
-        <div class="col-md-8 col-md-offset-2">
-  				<img src="../img/projects/ebay/Slide13.JPG" width="100%" /> <br> <br>
-        </div>
-
-        <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-          <p>While all the other sections where mostly summary information and pretty straightforward to organize and navigate, the tradeline details was the tricky one. It had detailed information on when the account was opened, its payment details, and payment history going back up to 5 years. Based on the on-time payments made to the account, it could be in one of the three states — good standing, delinquent and derogatory.</p>
-          <p>Different visual metaphors and representations were used to help user understand and navigate the information easily. Special focus was given such that visual elements were accessible adhering to the level AA of WCAG 2.0 guidelines.</p>
-        </div>
-
-        <div class="col-md-8 col-md-offset-2">
-  				<img src="../img/projects/ebay/Slide13.JPG" width="100%" /> <br> <br>
-        </div>
-
-        <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-          <p><strong>Step 4: Monitoring progress</strong> <br>
-          Since launch, different KPI’s are being measured and monitored to attribute to the success and efficacy of the release. These include (and not limited to) number of uniques views, time spent on the pages, number of support requests — direct and through partners and user anecdotes and pain points through regular partner check-ins. </p>
-
-          <h4>Impact</h4>
-          <p>The feature was well received by the partners who were very excited to roll the feature out to their members. There was an immediate hike in engagement resulting in a ~8% decrease in the drop-offs in the first quarter. Since launch, there have over 700,000+ unique views of the credit report with users spending 1 min 40 secs on average on its various pages. Credit report pages are the second most visited pages across the product, only after credit score.</p>
-          <p>Credit report launch also inspired a series of “education-based” messaging inside online banking aimed at increasing user acquisition.</p>
-          <img src="../img/projects/ebay/Slide13.JPG" width="100%" /> <br> <br>
-
-          <h4>Credit report download</h4>
-          <p>One of the requests from partners and users alike, was the ability for the users to print their credit reports and discuss their loan prospects with the loan representatives at the financial institution’s local branch. Thus, an abridged version of the report was designed with the summary of the score, credit accounts and eligible offers, that the users can take to the branch and discuss their options. The printable version of the report was launched in Q1 2018. </p>
-          <img src="../img/projects/ebay/Slide13.JPG" width="100%" /> <br> <br>
-
-          <h4>Learnings and takeaways</h4>
-          <p>I had a very humbling experience with the project. This was my first end-to-end feature release where I was involved from requirements gathering to final deployment and market release. It was a great experience working across the organization — with project manager, developers and business development teams, to bring the feature out in the market, in the hands of over 600,000+ users. (statistics as of writing this case study, which I am sure would have quadrupled by now :))</p>
-          <img src="../img/projects/ebay/Slide13.JPG" width="100%" /> <br> <br>
-          <p><strong>Design:</strong> The project was a refresher on the importance of hierarchy of content, visual elements and navigation. It was also a good (and required!) lesson on the importance of maintaining consistency across the different components, sections and pages of the product.</p>
-          <p><strong>Everything else:</strong> Apart from the project itself, I was just astounded by the depth of information that is shared between the lenders about our financial life which we barely track or even understand. Despite the fact that the credit reports are freely available, only a third of Americans actually view it. There have been ongoing discussions and debates over accuracy of the reports. 1 in 5 people who view their reports find errors. This could mean an overhead of hundreds of thousands of dollars, denied credit or identity fraud. For me, this project was a great exploration in understanding what forms the basis of the credit score models and how credit scores and reports work in general.</p>
-        </div>
-
 			</div>
 		</div>
-	</div>
-
-<br>
-
+	</div> <br>
 
   <!-- Footer
   ================================================== -->
