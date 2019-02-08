@@ -8,6 +8,11 @@ body {
 	padding-top: 50px;
 }
 
+.btn {
+color: #ffffff;
+background-color: #047cc0;}
+
+
 .navbar-default {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
 }
